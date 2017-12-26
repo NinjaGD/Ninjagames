@@ -1,0 +1,1 @@
+instance_create(640,360,obj_button_results);

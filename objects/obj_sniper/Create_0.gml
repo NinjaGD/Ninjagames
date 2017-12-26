@@ -1,0 +1,1 @@
+WeaponsCount +=1;
