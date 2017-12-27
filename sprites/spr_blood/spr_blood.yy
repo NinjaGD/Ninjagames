@@ -2,7 +2,7 @@
     "id": "2c83f54c-46e4-4a71-958b-c4d458c4cadb",
     "modelName": "GMSprite",
     "mvc": "1.12",
-    "name": "spr_bloods",
+    "name": "spr_blood",
     "For3D": false,
     "HTile": false,
     "VTile": false,
