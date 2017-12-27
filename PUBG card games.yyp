@@ -386,7 +386,7 @@
             "Key": "2c83f54c-46e4-4a71-958b-c4d458c4cadb",
             "Value": {
                 "id": "2da146b4-b2de-4d9e-8338-78fd3a831b72",
-                "resourcePath": "sprites\\spr_blood\\spr_blood.yy",
+                "resourcePath": "sprites\\spr_bloods\\spr_bloods.yy",
                 "resourceType": "GMSprite"
             }
         },
