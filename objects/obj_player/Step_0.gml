@@ -18,7 +18,8 @@ if keyboard_check(ord("D")){x+=SpeedPlayer;}
 
 with(obj_LeftStick) var walk_on = touching; // для опредения ходьбы
 with(obj_LeftStick) var walk_off = !touching; // не ходит
-var shoot_on_check = keyboard_check(vk_space); // для определения стрельбы
+//var shoot_on_check = keyboard_check(vk_space); // для определения стрельбы
+with (obj_RightStick) var shoot_on_check = touching;
 
 if Weapons = 0
 {

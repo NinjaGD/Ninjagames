@@ -37,9 +37,8 @@ if Weapons = 1 // ака47
 		{
 			if cd_player_shoot <=0
 			{
-				instance_create_layer(obj_player_coordinates.x,obj_player_coordinates.y,"Instances_1",obj_vspihka);
-				instance_create_layer(obj_player_coordinates.x+lengthdir_x(20,obj_player.image_angle),obj_player_coordinates.y+lengthdir_y(20,obj_player.image_angle),"Instances_1",obj_aka47_bullet);
-				//instance_create_layer(obj_player_coordinates.x,obj_player_coordinates.y,"Instances_1",obj_aka47_bullet);
+				//instance_create_layer(obj_player_coordinates.x,obj_player_coordinates.y,"Instances_1",obj_vspihka);
+				instance_create_layer(obj_player.x+lengthdir_x(8,obj_player.image_angle),obj_player.y+lengthdir_y(8,obj_player.image_angle),"Instances_1",obj_aka47_bullet);
 				cd_player_shoot =Aka47SpeedCd;
 				Aka47Ammo += -1;
 			}
@@ -57,7 +56,7 @@ if Weapons = 2 // пистолет
 		{
 			if cd_player_shoot <=0
 			{
-				instance_create_layer(obj_player_coordinates.x,obj_player_coordinates.y,"Instances_1",obj_pistolet_bullet);
+				instance_create_layer(obj_player.x+lengthdir_x(8,obj_player.image_angle),obj_player.y+lengthdir_y(8,obj_player.image_angle),"Instances_1",obj_pistolet_bullet);
 				cd_player_shoot =PistoletSpeedCd;
 				PistoletAmmo -=1;
 			}
@@ -91,7 +90,7 @@ if Weapons = 4 // снайперка
 		{
 			if cd_player_shoot <=0
 			{
-				instance_create_layer(obj_player_coordinates.x,obj_player_coordinates.y,"Instances_1",obj_sniperbullet);
+				instance_create_layer(obj_player.x+lengthdir_x(8,obj_player.image_angle),obj_player.y+lengthdir_y(8,obj_player.image_angle),"Instances_1",obj_sniperbullet);
 				cd_player_shoot =SniperSpeedCd;
 				SniperAmmo -= 1;
 			}
@@ -109,9 +108,9 @@ if Weapons = 5 // дробовик
 		{
 			if cd_player_shoot <=0
 			{
-				instance_create_layer(obj_player_coordinates.x,obj_player_coordinates.y,"Instances",obj_shotgun_bullet1);
-				instance_create_layer(obj_player_coordinates.x,obj_player_coordinates.y,"Instances",obj_shotgun_bullet2);
-				instance_create_layer(obj_player_coordinates.x,obj_player_coordinates.y,"Instances",obj_shotgun_bullet3);
+				instance_create_layer(obj_player.x+lengthdir_x(8,obj_player.image_angle),obj_player.y+lengthdir_y(8,obj_player.image_angle),"Instances_1",obj_shotgun_bullet1);
+				instance_create_layer(obj_player.x+lengthdir_x(8,obj_player.image_angle),obj_player.y+lengthdir_y(8,obj_player.image_angle),"Instances_1",obj_shotgun_bullet2);
+				instance_create_layer(obj_player.x+lengthdir_x(8,obj_player.image_angle),obj_player.y+lengthdir_y(8,obj_player.image_angle),"Instances_1",obj_shotgun_bullet3);
 				cd_player_shoot =ShotgunSpeedCd;
 				ShotgunAmmo -= 1;
 			}
