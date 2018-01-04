@@ -6,8 +6,6 @@
     "children": [
         "c39f7109-aad5-4359-876d-28fecd0d5db4",
         "c7215f4f-8c1a-4bd8-ace8-40ab9a045463",
-        "f87d28a0-f2a2-4d1e-b8f2-39c15db3b485",
-        "cde21e02-f633-4cc9-a67b-798f03b5ff13",
         "d474ebf7-9280-4390-aef6-6fceed8692c9",
         "60cee1cc-a698-47e6-ad40-a89a4b8bbae6",
         "b080ac67-41ef-44f9-8f4a-9ad63947121e",
@@ -26,7 +24,6 @@
         "caa6eb9b-5bfe-43ec-98b3-bc478e564068",
         "bf59627a-17d2-439b-8f7a-cb06f980e9b8",
         "2c83f54c-46e4-4a71-958b-c4d458c4cadb",
-        "81206b7a-b244-4f79-b792-aec1f1d0e629",
         "c7cd02c6-dc36-4ae2-be3b-63ca7ee446d8"
     ],
     "filterType": "GMSprite",

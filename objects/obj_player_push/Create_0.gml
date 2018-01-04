@@ -1,3 +1,3 @@
 direction = obj_player.image_angle;
 speed = PushSpeed;
-alarm_set(0, 3);
+alarm_set(0, 2);

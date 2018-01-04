@@ -37,7 +37,6 @@ if Weapons = 1 // ака47
 		{
 			if cd_player_shoot <=0
 			{
-				//instance_create_layer(obj_player_coordinates.x,obj_player_coordinates.y,"Instances_1",obj_vspihka);
 				instance_create_layer(obj_player.x+lengthdir_x(8,obj_player.image_angle),obj_player.y+lengthdir_y(8,obj_player.image_angle),"Instances_1",obj_aka47_bullet);
 				cd_player_shoot =Aka47SpeedCd;
 				Aka47Ammo += -1;

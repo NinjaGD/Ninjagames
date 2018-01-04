@@ -583,14 +583,6 @@
             }
         },
         {
-            "Key": "44d5b876-2f86-444d-b0af-17615db4e789",
-            "Value": {
-                "id": "507b3d2b-a7cf-489c-9ef2-630201aeb451",
-                "resourcePath": "sprites\\spr_button_left\\spr_button_left.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "46139c61-1381-4737-9513-474b9ec80a56",
             "Value": {
                 "id": "f95efe66-b68a-4790-a300-320bc62c6425",
@@ -660,14 +652,6 @@
                 "id": "04aca7a7-79e2-4cd0-b131-59cff1f373f8",
                 "resourcePath": "objects\\obj_player_bullet\\obj_player_bullet.yy",
                 "resourceType": "GMObject"
-            }
-        },
-        {
-            "Key": "4e59bf94-376f-4eea-9e72-32c148f27eff",
-            "Value": {
-                "id": "ca4ec3cc-45a1-46b0-8095-9e97faa4749e",
-                "resourcePath": "sprites\\spr_shotguntopdown\\spr_shotguntopdown.yy",
-                "resourceType": "GMSprite"
             }
         },
         {
@@ -1055,14 +1039,6 @@
             }
         },
         {
-            "Key": "7b92ce1f-aab0-453e-afc2-58daceb4a117",
-            "Value": {
-                "id": "1acf5081-8490-4109-b826-060f71d0abe1",
-                "resourcePath": "sprites\\spr_pistoleta_topdawn\\spr_pistoleta_topdawn.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "7c7aeaf0-d6de-465b-a477-60b9bb3e3d88",
             "Value": {
                 "id": "731e947b-e56a-4dea-a9d5-ca4c4e4c5a32",
@@ -1099,14 +1075,6 @@
             "Value": {
                 "id": "068648b0-1312-49a4-b8fe-eb407d08939d",
                 "resourcePath": "views\\80b920a6-febb-4225-abad-4fe0b57707d7.yy",
-                "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "81206b7a-b244-4f79-b792-aec1f1d0e629",
-            "Value": {
-                "id": "285c1f15-d055-4754-81a0-b3a28f7e530d",
-                "resourcePath": "views\\81206b7a-b244-4f79-b792-aec1f1d0e629.yy",
                 "resourceType": "GMFolder"
             }
         },
@@ -1815,14 +1783,6 @@
             }
         },
         {
-            "Key": "cde21e02-f633-4cc9-a67b-798f03b5ff13",
-            "Value": {
-                "id": "2526cb2b-6258-49d9-89f9-ae413ab0735c",
-                "resourcePath": "sprites\\spr_glasses\\spr_glasses.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "ce454bae-5d56-4e3f-bb9e-cdba6a994d62",
             "Value": {
                 "id": "676ed32b-98fc-40c9-b722-99c5bd124015",
@@ -2007,14 +1967,6 @@
             }
         },
         {
-            "Key": "e22774ea-eece-44c2-9ff4-5f1b4803727c",
-            "Value": {
-                "id": "1fc5bbe1-599c-44ef-bfb7-f93aa4bcf4d4",
-                "resourcePath": "sprites\\spr_sniper_topdownw\\spr_sniper_topdownw.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "e289c692-a2f3-470a-983d-16f7c8414ff6",
             "Value": {
                 "id": "1d58b390-ca1d-46f2-b5af-98faff1b8067",
@@ -2143,14 +2095,6 @@
             }
         },
         {
-            "Key": "f1718eed-dfba-4d85-b5be-9474808021c4",
-            "Value": {
-                "id": "39c63edf-0f28-4fec-a01c-c71a056741b9",
-                "resourcePath": "sprites\\spr_weaponangle\\spr_weaponangle.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "f211a89d-6e2d-42d2-a15d-ad43b252937d",
             "Value": {
                 "id": "37f28b6b-ea83-4215-b711-456cc3b9006c",
@@ -2228,14 +2172,6 @@
                 "id": "912d169d-af87-4f17-99a8-cfe3fbee8cb8",
                 "resourcePath": "scripts\\@__background_set\\__background_set.yy",
                 "resourceType": "GMScript"
-            }
-        },
-        {
-            "Key": "f87d28a0-f2a2-4d1e-b8f2-39c15db3b485",
-            "Value": {
-                "id": "fd5b6235-b6e8-4b79-a940-687e09bc53d6",
-                "resourcePath": "sprites\\spr_aim\\spr_aim.yy",
-                "resourceType": "GMSprite"
             }
         },
         {
