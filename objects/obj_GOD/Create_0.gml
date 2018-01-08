@@ -76,7 +76,7 @@ globalvar MoneyKill, SpeedEnemyBullet;
 
 EnemyCount = 0;
 EnemyKilled = 0;
-EnemyMax = irandom_range(10,20);
+EnemyMax = irandom_range(1,1);
 HpEnemy = 100;
 SpeedEnemy = 2;
 SpeedEnemyMin = 0;

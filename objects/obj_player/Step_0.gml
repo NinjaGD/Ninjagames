@@ -1,7 +1,7 @@
 if x<64 {x=64};
-if x>3936{x=3936};
+if x>1936{x=1936};
 if y<64 {y=64};
-if y>3936 {y=3936};
+if y>1936 {y=1936};
 
 
 obj_player.x += obj_LeftStick.normalx * SpeedPlayer;

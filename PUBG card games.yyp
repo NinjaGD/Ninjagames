@@ -119,6 +119,14 @@
             }
         },
         {
+            "Key": "0e152636-d52c-4b94-9996-602af4895fc3",
+            "Value": {
+                "id": "0633c85a-3695-4e1e-8b21-daef5f67943d",
+                "resourcePath": "objects\\obj_ads_inter_load\\obj_ads_inter_load.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "0fdb634d-052f-459c-b32c-524bb10610ec",
             "Value": {
                 "id": "a61f0d2e-4c2c-4604-924f-a2883df6faef",
@@ -1575,6 +1583,14 @@
             }
         },
         {
+            "Key": "b9d54fa2-dc17-4016-a901-1ae93c430c85",
+            "Value": {
+                "id": "355958e8-7a28-4888-913b-8f978907b4a7",
+                "resourcePath": "objects\\obj_ads_inter_ready\\obj_ads_inter_ready.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "bb773e23-65c0-44e2-8352-9787bf35aeab",
             "Value": {
                 "id": "763838eb-a5b3-43ef-a739-aec968f9887a",
@@ -1796,6 +1812,14 @@
                 "id": "0eb16866-a20e-470a-9a77-0823ceb432e0",
                 "resourcePath": "views\\d08ab7db-481f-4fbb-8b48-30d51b0769a0.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "d1626e8e-b184-4f53-91e1-892c9c508d94",
+            "Value": {
+                "id": "94cd2c64-bc12-4150-ab12-a4ee3096a4d0",
+                "resourcePath": "objects\\obj_ads_banner_show\\obj_ads_banner_show.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -2196,6 +2220,22 @@
                 "id": "c532d174-edf3-402d-b036-5fb2d4e99934",
                 "resourcePath": "sprites\\vjoy_Theme_Flat_Light_AS\\vjoy_Theme_Flat_Light_AS.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "fbf76bd6-61ab-4c8c-91e4-1993f5d6fe4e",
+            "Value": {
+                "id": "026f3958-a4e5-402a-b8ed-5d2bab8a45eb",
+                "resourcePath": "objects\\obj_ads_inter_init\\obj_ads_inter_init.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "fdb39699-1a51-401a-a81a-05b4dce8f73d",
+            "Value": {
+                "id": "401de1ac-d2ac-4f97-bd9c-cc062d0a1db0",
+                "resourcePath": "views\\fdb39699-1a51-401a-a81a-05b4dce8f73d.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
