@@ -10,7 +10,7 @@ image_angle = point_direction(x,y,obj_player_coordinates.x,obj_player_coordinate
 if instance_exists(obj_player) && distance_to_object(obj_player) < AttackDistance
 	{
 	direction = point_direction(x,y,obj_player.x,obj_player.y);
-	speed = SpeedEnemy;
+	speed = speedenemydefolt;
 	}
 	
 if hp_enemy1 <= 0 

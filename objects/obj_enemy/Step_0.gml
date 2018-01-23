@@ -27,7 +27,7 @@ if instance_exists(obj_player)
 	if distance_to_object(obj_player) < ShootDistance && distance_to_object(obj_player) < AttackDistance
 	{
 		direction = point_direction(x,y,obj_player_coordinates.x,obj_player_coordinates.y);
-		speed = SpeedEnemy;
+		speed = speedenemydefolt;
 		sprite_index = spr_gopnik_knife_walk;
 	}
 }

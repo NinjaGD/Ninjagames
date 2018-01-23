@@ -83,7 +83,7 @@ SpeedEnemyMin = 0;
 SpeedEnemyMax = 2;
 ShootCooldown = 90;
 CollisionCooldown = 30;
-CollisionDamage = 30;
+CollisionDamage = 3;
 CollisionSpeed = 5; 
 DamageBullet = 20;
 SpeedEnemyBullet = 5;
@@ -100,7 +100,7 @@ PickUpMax = 20;
 
 // смена оружия
 globalvar Weapons;
-Weapons = 0;
+Weapons = 1;
 
 // разные предметы
 globalvar HealCd;

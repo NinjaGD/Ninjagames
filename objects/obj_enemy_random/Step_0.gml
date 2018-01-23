@@ -12,7 +12,7 @@ image_angle = point_direction(x,y,obj_player_coordinates.x,obj_player_coordinate
 
 if instance_exists(obj_player)
 	{
-	if distance_to_object(obj_player)< ShootDistance
+	if distance_to_object(obj_player) < ShootDistance
 		{
 		if cd_shoot<=0
 			{
@@ -27,23 +27,23 @@ if instance_exists(obj_player)
 
 if instance_exists(obj_player)
 {
-	if distance_to_object(obj_player)<AttackDistance
+	if distance_to_object(obj_player) < ShootDistance
 	{
-		if distance_to_object(obj_player)> ShootDistance
+		if distance_to_object(obj_player)> 100
 		{
 				if cd_random_direction <= 0
 				{	
 					if random_direction = 1
 					{
 						direction = point_direction(x,y,obj_player_coordinates.x,obj_player_coordinates.y);
-						speed = SpeedEnemy;
+						speed = speedenemydefolt;
 						cd_random_direction = CdRandomDirection;
 					}
 				
 					if random_direction = 2
 					{
 						direction = irandom(360);
-						speed = SpeedEnemy;
+						speed = speedenemydefolt;
 						cd_random_direction = CdRandomDirection;
 					}
 				}

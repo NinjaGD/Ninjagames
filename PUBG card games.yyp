@@ -751,14 +751,6 @@
             }
         },
         {
-            "Key": "580401a9-b867-429b-be71-06bebb8b3049",
-            "Value": {
-                "id": "3f2206ff-4b3a-445f-a4b0-adb9edba2c1b",
-                "resourcePath": "sprites\\spr_gui_weapon\\spr_gui_weapon.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "585f5ea5-6091-40bc-b4f7-793b5c131d62",
             "Value": {
                 "id": "3d8fad9a-ab89-4db2-b835-cb71228e2abf",

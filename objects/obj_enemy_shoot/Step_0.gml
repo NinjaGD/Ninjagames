@@ -7,6 +7,10 @@ sprite_index = spr_enemy_haki_idle;
 
 image_angle = point_direction(x,y,obj_player_coordinates.x,obj_player_coordinates.y);
 
+//для того, чтобы противник вернулся на свое положение после отталкивания
+direction = image_angle;
+speed  = speedenemydefolt;
+
 if instance_exists(obj_player) && distance_to_object(obj_player) < AttackDistance
 {
 	if cd_shoot<=0

@@ -1,0 +1,1 @@
+speedenemydefolt = SpeedEnemyMax;
