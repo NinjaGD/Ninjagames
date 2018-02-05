@@ -287,14 +287,6 @@
             }
         },
         {
-            "Key": "201c014c-e417-4ad7-8ed5-40331cc54af4",
-            "Value": {
-                "id": "e588d749-906c-4192-9f56-4ec6eeb7c141",
-                "resourcePath": "tilesets\\tls_dirt\\tls_dirt.yy",
-                "resourceType": "GMTileSet"
-            }
-        },
-        {
             "Key": "203c3614-2fa3-41d3-870c-662ba95cbc21",
             "Value": {
                 "id": "3cc23b14-d117-44fa-ac9e-23d7799d6275",
@@ -547,6 +539,14 @@
             "Value": {
                 "id": "b46f2ea5-15b8-4877-b2af-438683e2f718",
                 "resourcePath": "sprites\\spr_knife_no_walk_shoot\\spr_knife_no_walk_shoot.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "4118870f-b306-4ba6-a6ba-b4c53aa47bbd",
+            "Value": {
+                "id": "a6be26be-17c2-4562-b279-f98b202d2325",
+                "resourcePath": "sprites\\spr_tile_big\\spr_tile_big.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -1111,6 +1111,14 @@
             }
         },
         {
+            "Key": "89d0ecb5-6bd7-440f-9b83-4c967b867a07",
+            "Value": {
+                "id": "2a713f5b-e781-4808-85ce-20df3f789ac5",
+                "resourcePath": "tilesets\\tileset2\\tileset2.yy",
+                "resourceType": "GMTileSet"
+            }
+        },
+        {
             "Key": "8a0b7e4e-c460-40f8-930c-a3c32c293928",
             "Value": {
                 "id": "8f279332-451e-45f8-b40a-38e59ef2a4bc",
@@ -1426,7 +1434,7 @@
             "Key": "a507225e-e0d7-4393-9515-ee900bfd1b34",
             "Value": {
                 "id": "1eb489df-191e-4d40-8a4f-4d96b135f17c",
-                "resourcePath": "sprites\\spr_tile_dirt\\spr_tile_dirt.yy",
+                "resourcePath": "sprites\\spr_tile_small\\spr_tile_small.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -2236,6 +2244,14 @@
                 "id": "c532d174-edf3-402d-b036-5fb2d4e99934",
                 "resourcePath": "sprites\\vjoy_Theme_Flat_Light_AS\\vjoy_Theme_Flat_Light_AS.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "fbee5dd7-e5d0-41ce-a14e-f0c4a144ef55",
+            "Value": {
+                "id": "07c60915-0f77-4e67-83a0-cdebd0bb4192",
+                "resourcePath": "tilesets\\all_tiles\\all_tiles.yy",
+                "resourceType": "GMTileSet"
             }
         },
         {
