@@ -375,6 +375,14 @@
             }
         },
         {
+            "Key": "275e5f28-bbf3-432c-b52c-56d90c57cd68",
+            "Value": {
+                "id": "f65af223-c7e5-407e-93b4-fd857526bd18",
+                "resourcePath": "sprites\\spr_inv_road\\spr_inv_road.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "28ca033c-aa5e-432f-b55d-a915ac697415",
             "Value": {
                 "id": "b29da2b2-8258-40a5-b675-93546f6e3582",
@@ -820,6 +828,14 @@
                 "id": "7c568422-0a02-4c8a-b72e-82592cfb2511",
                 "resourcePath": "objects\\obj_knife_damage\\obj_knife_damage.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "6044ae39-f081-473f-9805-a15bc07370e5",
+            "Value": {
+                "id": "814bc2e1-71fb-47a0-9c7c-e9de369f947f",
+                "resourcePath": "views\\6044ae39-f081-473f-9805-a15bc07370e5.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -2079,6 +2095,14 @@
             }
         },
         {
+            "Key": "e6b0ce95-256a-4eeb-8e48-b2e16d1c3ce8",
+            "Value": {
+                "id": "2caf44d4-f89d-4ba5-aa97-f69693bee799",
+                "resourcePath": "views\\e6b0ce95-256a-4eeb-8e48-b2e16d1c3ce8.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "e76c0a43-b02d-45e1-948f-3cb3f9cae6ed",
             "Value": {
                 "id": "f459d021-95d3-41de-aa75-cbe55f36a006",
@@ -2124,6 +2148,14 @@
                 "id": "dd856ee8-416e-49df-8db8-d6501505aa39",
                 "resourcePath": "fonts\\fnt_text_youkilled\\fnt_text_youkilled.yy",
                 "resourceType": "GMFont"
+            }
+        },
+        {
+            "Key": "ec4a03eb-e1ba-4c0d-a787-799ea2bc600d",
+            "Value": {
+                "id": "49cecf0b-168d-49be-8248-c17cf7155fd5",
+                "resourcePath": "objects\\obj_inv_road\\obj_inv_road.yy",
+                "resourceType": "GMObject"
             }
         },
         {
