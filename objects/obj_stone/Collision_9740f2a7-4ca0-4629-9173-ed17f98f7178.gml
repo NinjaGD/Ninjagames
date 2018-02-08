@@ -3,5 +3,3 @@ if ((player_speed > 0))
 {
 	SpeedPlayer = SpeedPlayerMin;
 }
-
-SpeedPlayer = SpeedPlayerMax;

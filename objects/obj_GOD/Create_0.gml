@@ -1,6 +1,7 @@
 
 //характеристики игрока глобальные переменные
 globalvar HpPlayer, ArmorPlayer, SpeedPlayer, SpeedPlayerMin, SpeedPlayerMax, HPDefolt, SpeedPlayerDefolt;
+globalvar SpeedPlayerSlow, SpeedPlayerFast;
 
 HPDefolt = 30; //здоровье игрока по умолчанию, которое будет меняться по мере его увеличения за награду
 HpPlayer = HPDefolt ; // здоровье - для расчета в бою
@@ -8,6 +9,8 @@ ArmorPlayer = 0; // броня
 SpeedPlayer = 4; // скорость передвижения
 SpeedPlayerMin = 0; // скорость передвижения игрока- минимальная ( для столкновений )
 SpeedPlayerMax = 4; // скорость передвижения игрока- максимальная ( для столкновений )
+SpeedPlayerSlow = 2; // скорость передвижения игрока- замедление ( для столкновений )
+SpeedPlayerFast = 5; // скорость передвижения игрока- ускорение ( для столкновений )
 SpeedPlayerDefolt = SpeedPlayer; // для загрузки скорости при первой игре
 
 //характеристики оружия глобальные переменные

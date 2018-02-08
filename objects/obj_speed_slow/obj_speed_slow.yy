@@ -1,23 +1,14 @@
 {
-    "id": "e79fee41-096a-4de5-a0e9-6233737d803c",
+    "id": "e1394669-ef4a-4428-b3a2-bd014c8ac348",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_stone",
+    "name": "obj_speed_slow",
     "eventList": [
-        {
-            "id": "9740f2a7-4ca0-4629-9173-ed17f98f7178",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "96c1930a-18dc-48be-9ff4-4b2c32472176",
-            "enumb": 0,
-            "eventtype": 4,
-            "m_owner": "e79fee41-096a-4de5-a0e9-6233737d803c"
-        }
+        
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
-    "parentObjectId": "00000000-0000-0000-0000-000000000000",
+    "parentObjectId": "813d4d97-5f3d-4b46-be46-43be6b434850",
     "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,
@@ -32,7 +23,7 @@
     "physicsShapePoints": null,
     "physicsStartAwake": true,
     "properties": null,
-    "solid": true,
-    "spriteId": "dcfe6783-f985-4c54-995f-1f22e04c2416",
+    "solid": false,
+    "spriteId": "275e5f28-bbf3-432c-b52c-56d90c57cd68",
     "visible": true
 }
