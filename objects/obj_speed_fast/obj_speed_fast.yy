@@ -1,23 +1,14 @@
 {
-    "id": "ec4a03eb-e1ba-4c0d-a787-799ea2bc600d",
+    "id": "f2ec982e-a4be-4243-996f-2df355795c9c",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_inv_road",
+    "name": "obj_speed_fast",
     "eventList": [
-        {
-            "id": "541cbf63-8f4b-4843-a110-db11f6e9d5fb",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "96c1930a-18dc-48be-9ff4-4b2c32472176",
-            "enumb": 0,
-            "eventtype": 4,
-            "m_owner": "ec4a03eb-e1ba-4c0d-a787-799ea2bc600d"
-        }
+        
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
-    "parentObjectId": "00000000-0000-0000-0000-000000000000",
+    "parentObjectId": "a1d045aa-bafe-404e-97d0-0cb820e23a8a",
     "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,
@@ -33,6 +24,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "275e5f28-bbf3-432c-b52c-56d90c57cd68",
+    "spriteId": "fc65df21-d928-4db6-90f0-73696f7c9c1a",
     "visible": true
 }
