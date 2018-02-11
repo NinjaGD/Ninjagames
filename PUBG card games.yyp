@@ -647,14 +647,6 @@
             }
         },
         {
-            "Key": "4b1a3647-fc79-4587-9dd8-b6ee7a1f469b",
-            "Value": {
-                "id": "7ffa9b34-ab51-4f10-9924-e90a89d8ab6f",
-                "resourcePath": "sprites\\spr_proba\\spr_proba.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "4c40b767-632c-4352-887c-4c06f6d069b3",
             "Value": {
                 "id": "f5eed2b4-0a0d-42c0-97fb-e05dbd0071a3",
