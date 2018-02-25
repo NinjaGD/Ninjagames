@@ -10,10 +10,6 @@ sprite_index = spr_red_walk_pistol;
 
 image_angle = point_direction(x,y,obj_player_coordinates.x,obj_player_coordinates.y);
 
-//для того, чтобы противник вернулся на свое положение после отталкивания
-direction = image_angle;
-speed  = speedenemydefolt;
-
 if instance_exists(obj_player)
 	{
 	if distance_to_object(obj_player) < ShootDistance
@@ -31,31 +27,36 @@ if instance_exists(obj_player)
 
 if instance_exists(obj_player)
 {
-	if distance_to_object(obj_player) < ShootDistance
+	if point_distance(x, y, obj_player.x, obj_player.y) && distance_to_object(obj_player) < ShootDistance
+    {
+        mp_potential_step(obj_player.x, obj_player.y, speedenemydefolt, false);
+    }		
+	else
 	{
-		if distance_to_object(obj_player)> 100
+		if distance_to_object(obj_player) < ShootDistance
 		{
-				if cd_random_direction <= 0
-				{	
-					if random_direction = 1
-					{
-						direction = point_direction(x,y,obj_player_coordinates.x,obj_player_coordinates.y);
-						speed = speedenemydefolt;
-						cd_random_direction = CdRandomDirection;
-					}
+			if distance_to_object(obj_player)> 100
+			{
+					if cd_random_direction <= 0
+					{	
+						if random_direction = 1
+						{
+							direction = point_direction(x,y,obj_player_coordinates.x,obj_player_coordinates.y);
+							cd_random_direction = CdRandomDirection;
+						}
 				
-					if random_direction = 2
-					{
-						direction = irandom(360);
-						speed = speedenemydefolt;
-						cd_random_direction = CdRandomDirection;
+						if random_direction = 2
+						{
+							direction = irandom(360);
+							cd_random_direction = CdRandomDirection;
+						}
 					}
-				}
-				cd_random_direction += -1;
-		}
-	}	
+					cd_random_direction += -1;
+			}
+		}	
+	}				
 }
-	
+
 	
 if hp_enemy1 <= 0 
 {

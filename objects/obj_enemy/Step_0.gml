@@ -21,16 +21,31 @@ if instance_exists(obj_player)
 	}
 }
 	
+// старое передвижение
+//if instance_exists(obj_player)
+//{
+//	if distance_to_object(obj_player) < ShootDistance && distance_to_object(obj_player) < AttackDistance
+//	{
+//		direction = point_direction(x,y,obj_player_coordinates.x,obj_player_coordinates.y);
+//		speed = speedenemydefolt;
+//		sprite_index = spr_gopnik_knife_walk;
+//	}
+//}
 
-if instance_exists(obj_player)
+if instance_exists(obj_player) && distance_to_object(obj_player) < ShootDistance && distance_to_object(obj_player) < AttackDistance
 {
-	if distance_to_object(obj_player) < ShootDistance && distance_to_object(obj_player) < AttackDistance
-	{
-		direction = point_direction(x,y,obj_player_coordinates.x,obj_player_coordinates.y);
+    if point_distance(x, y, obj_player.x, obj_player.y)
+    {
+        mp_potential_step(obj_player.x, obj_player.y, speedenemydefolt, false);
+    }
+    else
+    {
+		direction = point_direction(x,y,obj_player.x,obj_player.y);
 		speed = speedenemydefolt;
 		sprite_index = spr_gopnik_knife_walk;
-	}
+    }
 }
+
 	
 if hp_enemy1 <= 0 
 {

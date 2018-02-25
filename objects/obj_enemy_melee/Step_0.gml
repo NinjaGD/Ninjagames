@@ -15,14 +15,16 @@ image_angle = point_direction(x,y,obj_player_coordinates.x,obj_player_coordinate
 	
 if instance_exists(obj_player) && distance_to_object(obj_player) < AttackDistance
 {
-    if point_distance(x, y, obj_player.x, obj_player.y) > SpeedPlayer
+    if point_distance(x, y, obj_player.x, obj_player.y) //> SpeedPlayer
     {
-        mp_potential_step(obj_player.x, obj_player.y, SpeedEnemy, false);
+        mp_potential_step(obj_player.x, obj_player.y, speedenemydefolt, false);
     }
     else
     {
-        x = obj_player.x;
-        y = obj_player.y;
+		direction = point_direction(x,y,obj_player.x,obj_player.y);
+        // другой вариант 
+		//x = obj_player.x;
+        //y = obj_player.y;
     }
 }
 
