@@ -1,3 +1,4 @@
+randomize();
 
 //характеристики игрока глобальные переменные
 globalvar HpPlayer, ArmorPlayer, SpeedPlayer, SpeedPlayerMin, SpeedPlayerMax, HPDefolt, SpeedPlayerDefolt;
@@ -75,7 +76,7 @@ ShotgunDamage = 30 // скорость урона из дробовика
 // характеристики врагов obj_enemy
 globalvar HpEnemy, SpeedEnemy, ShootCooldown, CollisionCooldown, DamageBullet, SpeedEnemyMin, SpeedEnemyMax;
 globalvar CdRandomDirection, AttackDistance,CollisionDamage, EnemyCount, EnemyKilled, CollisionSpeed, EnemyMax;
-globalvar MoneyKill, SpeedEnemyBullet;
+globalvar MoneyKill, SpeedEnemyBullet, MeleeDistance;
 
 EnemyCount = 0;
 EnemyKilled = 0;
@@ -93,6 +94,7 @@ SpeedEnemyBullet = 5;
 CdRandomDirection = 90;
 AttackDistance = 750;
 ShootDistance = 500; // дистанция до выстрела
+MeleeDistance = 100; // дистанция с которой перс пойдет в ближний бой
 MoneyKill = irandom_range(30,50); //деньги за убийство моба
 
 

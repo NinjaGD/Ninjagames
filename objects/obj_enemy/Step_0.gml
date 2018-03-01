@@ -9,41 +9,24 @@ image_angle = point_direction(x,y,obj_player_coordinates.x,obj_player_coordinate
 
 if instance_exists(obj_player)
 {
-	if distance_to_object(obj_player)< ShootDistance && distance_to_object(obj_player) > AttackDistance
+	if distance_to_object(obj_player) < AttackDistance
 	{
-		if cd_shoot<=0
+		if distance_to_object(obj_player) < ShootDistance && distance_to_object(obj_player) > MeleeDistance
 		{
-			sprite_index = spr_gopnik_avtomat_shoot;
-			instance_create_layer(x,y,"Instances",obj_enemy_bullet);
-			cd_shoot =ShootCooldown;
+			if cd_shoot<=0
+			{
+				sprite_index = spr_gopnik_avtomat_shoot;
+				instance_create_layer(x,y,"Instances",obj_enemy_bullet);
+				cd_shoot =ShootCooldown;
+			}
+			cd_shoot -=1;
 		}
-		cd_shoot -=1;
+		else if distance_to_object(obj_player) < MeleeDistance
+		{
+			mp_potential_step(obj_player.x, obj_player.y, speedenemydefolt, false);
+			sprite_index = spr_gopnik_knife_walk;
+		}
 	}
-}
-	
-// старое передвижение
-//if instance_exists(obj_player)
-//{
-//	if distance_to_object(obj_player) < ShootDistance && distance_to_object(obj_player) < AttackDistance
-//	{
-//		direction = point_direction(x,y,obj_player_coordinates.x,obj_player_coordinates.y);
-//		speed = speedenemydefolt;
-//		sprite_index = spr_gopnik_knife_walk;
-//	}
-//}
-
-if instance_exists(obj_player) && distance_to_object(obj_player) < ShootDistance && distance_to_object(obj_player) < AttackDistance
-{
-    if point_distance(x, y, obj_player.x, obj_player.y)
-    {
-        mp_potential_step(obj_player.x, obj_player.y, speedenemydefolt, false);
-    }
-    else
-    {
-		direction = point_direction(x,y,obj_player.x,obj_player.y);
-		speed = speedenemydefolt;
-		sprite_index = spr_gopnik_knife_walk;
-    }
 }
 
 	
