@@ -1,0 +1,1 @@
+draw_text(640,450, "random_direction: " + string(obj_enemy_random.random_direction));
