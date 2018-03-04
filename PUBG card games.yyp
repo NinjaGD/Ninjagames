@@ -1615,6 +1615,14 @@
             }
         },
         {
+            "Key": "b83bfa19-52f5-492f-82d6-139f6c5b4d5a",
+            "Value": {
+                "id": "fec9de93-7fd2-4cbb-b2ea-29fdf1790a20",
+                "resourcePath": "sprites\\spr_flipup\\spr_flipup.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "b913f212-0854-4942-a58f-d2149ac08492",
             "Value": {
                 "id": "aa304689-b33c-47d4-9572-da7cad0bb9ca",
