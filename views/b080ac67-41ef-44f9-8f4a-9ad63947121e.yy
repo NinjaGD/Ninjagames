@@ -9,7 +9,8 @@
         "b5b3d2a3-1561-4e68-8e5b-72a2a6e46a0b",
         "d08ab7db-481f-4fbb-8b48-30d51b0769a0",
         "96e0c44c-66ea-4099-937c-65db59729401",
-        "30c16f4b-7261-4aec-bd72-b8565bdd5eeb"
+        "30c16f4b-7261-4aec-bd72-b8565bdd5eeb",
+        "b83bfa19-52f5-492f-82d6-139f6c5b4d5a"
     ],
     "filterType": "GMSprite",
     "folderName": "gr_spr_player",
