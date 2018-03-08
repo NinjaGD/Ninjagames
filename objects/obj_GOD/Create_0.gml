@@ -2,7 +2,7 @@ randomize();
 
 //характеристики игрока глобальные переменные
 globalvar HpPlayer, ArmorPlayer, SpeedPlayer, SpeedPlayerMin, SpeedPlayerMax, HPDefolt, SpeedPlayerDefolt;
-globalvar SpeedPlayerSlow, SpeedPlayerFast;
+globalvar SpeedPlayerSlow, SpeedPlayerFast, SpeedTeleport, CdTeleport;
 
 HPDefolt = 30; //здоровье игрока по умолчанию, которое будет меняться по мере его увеличения за награду
 HpPlayer = HPDefolt ; // здоровье - для расчета в бою
@@ -13,6 +13,8 @@ SpeedPlayerMax = 4; // скорость передвижения игрока- �
 SpeedPlayerSlow = 2; // скорость передвижения игрока- замедление ( для столкновений )
 SpeedPlayerFast = 5; // скорость передвижения игрока- ускорение ( для столкновений )
 SpeedPlayerDefolt = SpeedPlayer; // для загрузки скорости при первой игре
+SpeedTeleport = 30; // скорость выcтрела объектом для телепорта
+CdTeleport = 30; // время для возможности нажатия кнопки телепорт
 
 //характеристики оружия глобальные переменные
 globalvar ShootDamage, SpeedPlayerBullet, ShootSpeedPlayer, ShootScatterPlayer, ShootAmmo, ShootDistance;

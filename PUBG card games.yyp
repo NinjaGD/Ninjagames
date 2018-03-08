@@ -1039,6 +1039,14 @@
             }
         },
         {
+            "Key": "78d39ee0-7412-4390-86fa-dc9bcc3782d7",
+            "Value": {
+                "id": "d854a3e1-6d2b-4c58-9fac-2a563a70b72c",
+                "resourcePath": "sprites\\spr_teleport_test\\spr_teleport_test.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "78f66f6d-9b0d-43aa-9040-41a7d394f90a",
             "Value": {
                 "id": "aff83acc-87fa-4aaa-948a-71803e5c06e8",
@@ -1762,7 +1770,7 @@
             "Key": "c71050bd-5d6d-4bbe-afa5-e5306d283c93",
             "Value": {
                 "id": "97cccef9-3b0c-4c06-aee5-c927f5d0b3b7",
-                "resourcePath": "objects\\obj_somersault\\obj_somersault.yy",
+                "resourcePath": "objects\\obj_button_teleport\\obj_button_teleport.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -1844,6 +1852,14 @@
                 "id": "110be70c-a707-4304-95da-7a1284266c2e",
                 "resourcePath": "views\\cbdf81f9-738a-4266-a80c-6433c447ae64.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "cc269330-f4db-4764-b2d1-319dd92ed6a1",
+            "Value": {
+                "id": "a1aff86e-2929-4945-885e-0a1915fd9254",
+                "resourcePath": "objects\\obj_teleport\\obj_teleport.yy",
+                "resourceType": "GMObject"
             }
         },
         {

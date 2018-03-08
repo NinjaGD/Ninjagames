@@ -21,6 +21,7 @@ with(obj_LeftStick) var walk_off = !touching; // не ходит
 //var shoot_on_check = keyboard_check(vk_space); // для определения стрельбы
 with (obj_RightStick) var shoot_on_check = touching;
 
+
 if Weapons = 0
 {
 	if(walk_on)

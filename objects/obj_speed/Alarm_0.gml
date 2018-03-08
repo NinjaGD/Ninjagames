@@ -1,2 +1,2 @@
-SpeedPlayer = 4;
+SpeedPlayer = SpeedPlayerMax;
 instance_destroy();
