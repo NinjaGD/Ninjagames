@@ -1,1 +1,1 @@
-SpeedPlayer = SpeedPlayerMax;
+SpeedEnemy = SpeedEnemyMax;SpeedPlayer = SpeedPlayerMax;

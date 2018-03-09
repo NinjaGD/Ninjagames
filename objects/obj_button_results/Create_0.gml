@@ -1,1 +1,1 @@
-key_shoot = virtual_key_add(448,264,384,192,vk_enter);
+key_results = virtual_key_add(448,264,384,192,vk_enter);

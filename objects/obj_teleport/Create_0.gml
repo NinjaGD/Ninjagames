@@ -3,5 +3,4 @@ image_angle = direction;
 speed = SpeedTeleport;
 SpeedPlayer = 0;
 alarm [0] = 3;
-obj_player.visible = false;
-
+if instance_exists(obj_player){obj_player.visible = false};

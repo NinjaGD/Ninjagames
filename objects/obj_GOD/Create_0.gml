@@ -1,3 +1,4 @@
+// различные настройки
 randomize();
 
 //характеристики игрока глобальные переменные
@@ -7,12 +8,12 @@ globalvar SpeedPlayerSlow, SpeedPlayerFast, SpeedTeleport, CdTeleport;
 HPDefolt = 30; //здоровье игрока по умолчанию, которое будет меняться по мере его увеличения за награду
 HpPlayer = HPDefolt ; // здоровье - для расчета в бою
 ArmorPlayer = 0; // броня
+SpeedPlayerDefolt = 4; // дефолтная скорость, не подвергается изменениям
 SpeedPlayer = 4; // скорость передвижения
 SpeedPlayerMin = 0; // скорость передвижения игрока- минимальная ( для столкновений )
-SpeedPlayerMax = 4; // скорость передвижения игрока- максимальная ( для столкновений )
+SpeedPlayerMax = SpeedPlayer; // скорость передвижения игрока- максимальная ( для столкновений )
 SpeedPlayerSlow = 2; // скорость передвижения игрока- замедление ( для столкновений )
 SpeedPlayerFast = 5; // скорость передвижения игрока- ускорение ( для столкновений )
-SpeedPlayerDefolt = SpeedPlayer; // для загрузки скорости при первой игре
 SpeedTeleport = 30; // скорость выcтрела объектом для телепорта
 CdTeleport = 30; // время для возможности нажатия кнопки телепорт
 
@@ -78,7 +79,7 @@ ShotgunDamage = 30 // скорость урона из дробовика
 // характеристики врагов obj_enemy
 globalvar HpEnemy, SpeedEnemy, ShootCooldown, CollisionCooldown, DamageBullet, SpeedEnemyMin, SpeedEnemyMax;
 globalvar CdRandomDirection, AttackDistance,CollisionDamage, EnemyCount, EnemyKilled, CollisionSpeed, EnemyMax;
-globalvar MoneyKill, SpeedEnemyBullet, MeleeDistance;
+globalvar MoneyKill, SpeedEnemyBullet, MeleeDistance, SpeedEnemySlow, SpeedEnemyFast;
 
 EnemyCount = 0;
 EnemyKilled = 0;
@@ -87,6 +88,8 @@ HpEnemy = 100;
 SpeedEnemy = 2;
 SpeedEnemyMin = 0;
 SpeedEnemyMax = 2;
+SpeedEnemySlow = 1;
+SpeedEnemyFast = 3;
 ShootCooldown = 90;
 CollisionCooldown = 30;
 CollisionDamage = 3;

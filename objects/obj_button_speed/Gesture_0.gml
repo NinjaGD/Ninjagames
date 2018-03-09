@@ -1,7 +1,7 @@
 if MoneyMax >= BuySpeed
 {
 	SpeedPlayer +=5;
-	BuySpeed = BuySpeed*2;
+	BuySpeed += 0.1;
 	ini_open("battleData.ini");
 	ini_write_real("Variables", "MoneyMax", SpeedPlayer); //The first value is a header for that section, the second value is the label for your variable in the INI file, and the third value is the actual variable
 	ini_write_real("Variables", "MoneyMax", BuySpeed); //The first value is a header for that section, the second value is the label for your variable in the INI file, and the third value is the actual variable

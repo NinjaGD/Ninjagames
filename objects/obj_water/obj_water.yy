@@ -1,28 +1,18 @@
 {
-    "id": "c94676f3-b491-4bf6-822f-4e7ea88df0b3",
+    "id": "56c97909-8fb7-4dc5-8795-4fad1bde9851",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_spawner_enemy",
+    "name": "obj_water",
     "eventList": [
         {
-            "id": "df68f735-f19b-4ede-b50f-0a07174e9030",
+            "id": "aaf33b55-903d-462f-a4c1-6b5d3013b8c1",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "collisionObjectId": "96c1930a-18dc-48be-9ff4-4b2c32472176",
             "enumb": 0,
-            "eventtype": 0,
-            "m_owner": "c94676f3-b491-4bf6-822f-4e7ea88df0b3"
-        },
-        {
-            "id": "ce6b48f7-3c85-4c60-8779-45f3bbcb7df1",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 3,
-            "m_owner": "c94676f3-b491-4bf6-822f-4e7ea88df0b3"
+            "eventtype": 4,
+            "m_owner": "56c97909-8fb7-4dc5-8795-4fad1bde9851"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -42,7 +32,7 @@
     "physicsShapePoints": null,
     "physicsStartAwake": true,
     "properties": null,
-    "solid": false,
-    "spriteId": "00000000-0000-0000-0000-000000000000",
+    "solid": true,
+    "spriteId": "771176e4-2b43-49c9-8326-4263137ace73",
     "visible": true
 }

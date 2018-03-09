@@ -759,6 +759,14 @@
             }
         },
         {
+            "Key": "56c97909-8fb7-4dc5-8795-4fad1bde9851",
+            "Value": {
+                "id": "646401a3-7149-478c-876b-278aced92a8e",
+                "resourcePath": "objects\\obj_water\\obj_water.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "585f5ea5-6091-40bc-b4f7-793b5c131d62",
             "Value": {
                 "id": "3d8fad9a-ab89-4db2-b835-cb71228e2abf",
@@ -1036,6 +1044,14 @@
                 "id": "3b1eca87-1ee9-432f-bf43-f91acac1ee73",
                 "resourcePath": "objects\\obj_LeftStick\\obj_LeftStick.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "771176e4-2b43-49c9-8326-4263137ace73",
+            "Value": {
+                "id": "03342578-fe0d-444e-9d15-bddf790f14ed",
+                "resourcePath": "sprites\\spr_water\\spr_water.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

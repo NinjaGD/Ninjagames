@@ -9,7 +9,8 @@
         "dcfe6783-f985-4c54-995f-1f22e04c2416",
         "548d04dc-eda2-45e3-8dc8-42e1ded59beb",
         "432409e2-d548-4ab3-a24f-82ea9bd85903",
-        "dacc3222-0d7f-460a-984a-703be1e70756"
+        "dacc3222-0d7f-460a-984a-703be1e70756",
+        "771176e4-2b43-49c9-8326-4263137ace73"
     ],
     "filterType": "GMSprite",
     "folderName": "gr_spr_env",
