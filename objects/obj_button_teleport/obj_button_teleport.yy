@@ -2,7 +2,7 @@
     "id": "c71050bd-5d6d-4bbe-afa5-e5306d283c93",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_somersault",
+    "name": "obj_button_teleport",
     "eventList": [
         {
             "id": "ff24f880-6b88-4185-b04c-968bb3d31f9c",
@@ -35,13 +35,13 @@
             "m_owner": "c71050bd-5d6d-4bbe-afa5-e5306d283c93"
         },
         {
-            "id": "f492783b-1325-495d-b5da-819964fb6b2f",
+            "id": "ef143c94-3c84-48cd-bc61-a3e2c7e48def",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
-            "eventtype": 13,
+            "eventtype": 3,
             "m_owner": "c71050bd-5d6d-4bbe-afa5-e5306d283c93"
         }
     ],
@@ -64,5 +64,5 @@
     "properties": null,
     "solid": false,
     "spriteId": "6849fdd2-2d4a-40a8-9281-2653623e9a57",
-    "visible": false
+    "visible": true
 }

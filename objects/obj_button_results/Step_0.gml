@@ -1,6 +1,6 @@
-key_shoot = keyboard_check(vk_enter);
+key_results = keyboard_check(vk_enter);
 
-if (key_shoot)
+if (key_results)
 {
 	MoneyMax +=MoneyReward;
 	room_goto(room_final);
