@@ -4,7 +4,7 @@
     "mvc": "1.0",
     "name": "fnt_text_youkilled",
     "AntiAlias": 1,
-    "TTFName": "${project_dir}\\fonts\\fnt_text_youkilled\\PermanentMarker.ttf",
+    "TTFName": null,
     "bold": false,
     "charset": 0,
     "first": 0,
@@ -1437,7 +1437,7 @@
         }
     ],
     "image": null,
-    "includeTTF": true,
+    "includeTTF": false,
     "italic": false,
     "kerningPairs": [
         {

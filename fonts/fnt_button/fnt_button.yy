@@ -4,7 +4,7 @@
     "mvc": "1.0",
     "name": "fnt_button",
     "AntiAlias": 1,
-    "TTFName": "${project_dir}\\fonts\\fnt_button\\PermanentMarker.ttf",
+    "TTFName": null,
     "bold": false,
     "charset": 0,
     "first": 0,
@@ -1437,7 +1437,7 @@
         }
     ],
     "image": null,
-    "includeTTF": true,
+    "includeTTF": false,
     "italic": false,
     "kerningPairs": [
         {
