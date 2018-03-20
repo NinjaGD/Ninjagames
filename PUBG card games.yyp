@@ -223,14 +223,6 @@
             }
         },
         {
-            "Key": "15427e23-fc2c-4970-9500-d24458ac1b01",
-            "Value": {
-                "id": "6c74b385-5b8b-4bb9-950c-1c2fe600e19b",
-                "resourcePath": "views\\15427e23-fc2c-4970-9500-d24458ac1b01.yy",
-                "resourceType": "GMFolder"
-            }
-        },
-        {
             "Key": "15705790-b5d5-4745-8b15-fb4e226e88bd",
             "Value": {
                 "id": "189f4525-ab57-412b-a76a-b42e03909642",
@@ -251,14 +243,6 @@
             "Value": {
                 "id": "be8da03d-98e8-4e0e-9278-c52c9b5d98d5",
                 "resourcePath": "views\\16dc3819-2c5c-4b3b-904d-2ab285bc5bb8.yy",
-                "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "1700b2b7-e3ea-4a9c-a382-85049fd36cf0",
-            "Value": {
-                "id": "7c06d468-437f-4044-a7d6-994329f8890c",
-                "resourcePath": "views\\1700b2b7-e3ea-4a9c-a382-85049fd36cf0.yy",
                 "resourceType": "GMFolder"
             }
         },
@@ -383,14 +367,6 @@
             }
         },
         {
-            "Key": "22988eec-c02a-47a3-8ff4-1bc221ec8286",
-            "Value": {
-                "id": "e189d251-b96c-418c-a5db-39385006c6bb",
-                "resourcePath": "views\\22988eec-c02a-47a3-8ff4-1bc221ec8286.yy",
-                "resourceType": "GMFolder"
-            }
-        },
-        {
             "Key": "2375b534-dc64-466e-9caf-524e16a3740c",
             "Value": {
                 "id": "474255a4-2e39-4cb3-9550-8d713309b8f0",
@@ -463,14 +439,6 @@
             }
         },
         {
-            "Key": "28ca033c-aa5e-432f-b55d-a915ac697415",
-            "Value": {
-                "id": "b29da2b2-8258-40a5-b675-93546f6e3582",
-                "resourcePath": "views\\28ca033c-aa5e-432f-b55d-a915ac697415.yy",
-                "resourceType": "GMFolder"
-            }
-        },
-        {
             "Key": "2bfcac7a-2cea-46b7-a500-6ec2d4fd67a4",
             "Value": {
                 "id": "2c19c5d9-da92-4ec4-adb8-2f0afa99960f",
@@ -519,27 +487,11 @@
             }
         },
         {
-            "Key": "2efac863-1815-4489-b8a0-19fb6923bff2",
-            "Value": {
-                "id": "3cd2d03e-9291-4b42-bcf4-736cd1d85a58",
-                "resourcePath": "views\\2efac863-1815-4489-b8a0-19fb6923bff2.yy",
-                "resourceType": "GMFolder"
-            }
-        },
-        {
             "Key": "2efe8ea6-a89b-4ef3-bc4d-1a2ebe360a7e",
             "Value": {
                 "id": "eb4ce6f4-579c-4dd5-a952-e5148d6fb2dc",
                 "resourcePath": "sprites\\spr_play_test\\spr_play_test.yy",
                 "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "30c16f4b-7261-4aec-bd72-b8565bdd5eeb",
-            "Value": {
-                "id": "d4c3c28c-71ef-4d82-8240-c30759815a8d",
-                "resourcePath": "views\\30c16f4b-7261-4aec-bd72-b8565bdd5eeb.yy",
-                "resourceType": "GMFolder"
             }
         },
         {
@@ -652,14 +604,6 @@
                 "id": "240ca525-eb97-4d9d-a1da-8ea9af42d75d",
                 "resourcePath": "notes\\compatibility_report_170318_924102410.yy",
                 "resourceType": "GMNotes"
-            }
-        },
-        {
-            "Key": "3fdff335-904d-40d0-9956-3a1c41b20ac1",
-            "Value": {
-                "id": "30b6e76b-1e40-42f7-863d-f13c409059f3",
-                "resourcePath": "views\\3fdff335-904d-40d0-9956-3a1c41b20ac1.yy",
-                "resourceType": "GMFolder"
             }
         },
         {
@@ -1023,14 +967,6 @@
             }
         },
         {
-            "Key": "60cee1cc-a698-47e6-ad40-a89a4b8bbae6",
-            "Value": {
-                "id": "87b79e35-cf4d-4f36-b58a-bc2b0e501855",
-                "resourcePath": "views\\60cee1cc-a698-47e6-ad40-a89a4b8bbae6.yy",
-                "resourceType": "GMFolder"
-            }
-        },
-        {
             "Key": "61f20ecf-ed54-4fb2-83c2-ea68c4114280",
             "Value": {
                 "id": "83ea1321-6654-48d2-ae5a-1610e44bb673",
@@ -1319,14 +1255,6 @@
             }
         },
         {
-            "Key": "80b920a6-febb-4225-abad-4fe0b57707d7",
-            "Value": {
-                "id": "068648b0-1312-49a4-b8fe-eb407d08939d",
-                "resourcePath": "views\\80b920a6-febb-4225-abad-4fe0b57707d7.yy",
-                "resourceType": "GMFolder"
-            }
-        },
-        {
             "Key": "813d4d97-5f3d-4b46-be46-43be6b434850",
             "Value": {
                 "id": "3e452d5b-eeab-4db6-a354-d9985a57a7f3",
@@ -1487,14 +1415,6 @@
             }
         },
         {
-            "Key": "9279700f-4a2c-47bb-ba48-b365401e8b31",
-            "Value": {
-                "id": "01f099df-85f8-41ae-b138-0510eb83f7cf",
-                "resourcePath": "views\\9279700f-4a2c-47bb-ba48-b365401e8b31.yy",
-                "resourceType": "GMFolder"
-            }
-        },
-        {
             "Key": "92c451d7-c0e3-461c-9b5b-45283dc1bea7",
             "Value": {
                 "id": "6bb76f80-400b-4dd5-b2e3-9562f5af3aae",
@@ -1515,14 +1435,6 @@
             "Value": {
                 "id": "a79cccea-701b-4b8e-915b-af494908b1d6",
                 "resourcePath": "views\\933c1df3-a3df-4bbd-8733-6c1c8a7d788c.yy",
-                "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "936e5efa-2b60-447e-9b39-b32dd851f6e5",
-            "Value": {
-                "id": "a1e72e25-dede-4659-9c2f-6d0aa448ab58",
-                "resourcePath": "views\\936e5efa-2b60-447e-9b39-b32dd851f6e5.yy",
                 "resourceType": "GMFolder"
             }
         },
@@ -1556,14 +1468,6 @@
                 "id": "45e41520-5909-4b9e-b2b5-eeb85c7bba15",
                 "resourcePath": "objects\\obj_player\\obj_player.yy",
                 "resourceType": "GMObject"
-            }
-        },
-        {
-            "Key": "96e0c44c-66ea-4099-937c-65db59729401",
-            "Value": {
-                "id": "6ab44368-2380-4126-89e5-89012d1ae8e4",
-                "resourcePath": "views\\96e0c44c-66ea-4099-937c-65db59729401.yy",
-                "resourceType": "GMFolder"
             }
         },
         {
@@ -1647,14 +1551,6 @@
             }
         },
         {
-            "Key": "9d5f5636-b902-4e89-8b68-12464de3d83d",
-            "Value": {
-                "id": "1b758545-fd25-458e-8d1e-fe2b1e30a552",
-                "resourcePath": "views\\9d5f5636-b902-4e89-8b68-12464de3d83d.yy",
-                "resourceType": "GMFolder"
-            }
-        },
-        {
             "Key": "9e03442f-850c-45ea-b727-f3707d7ada83",
             "Value": {
                 "id": "af5247a2-df63-4d05-9f70-1052d3761738",
@@ -1703,14 +1599,6 @@
             }
         },
         {
-            "Key": "a40ebc1d-d9b3-4da9-be2d-80aabff05ca9",
-            "Value": {
-                "id": "f5acb2ee-7767-4683-8fd8-d08da893c969",
-                "resourcePath": "views\\a40ebc1d-d9b3-4da9-be2d-80aabff05ca9.yy",
-                "resourceType": "GMFolder"
-            }
-        },
-        {
             "Key": "a507225e-e0d7-4393-9515-ee900bfd1b34",
             "Value": {
                 "id": "1eb489df-191e-4d40-8a4f-4d96b135f17c",
@@ -1724,14 +1612,6 @@
                 "id": "1dd5c8ac-7414-4672-bd29-627d195bd221",
                 "resourcePath": "objects\\obj_banner\\obj_banner.yy",
                 "resourceType": "GMObject"
-            }
-        },
-        {
-            "Key": "a745dbc2-01a1-4b60-aee0-0937f071ae4c",
-            "Value": {
-                "id": "a57883cd-a575-4208-a706-c556317b55b2",
-                "resourcePath": "views\\a745dbc2-01a1-4b60-aee0-0937f071ae4c.yy",
-                "resourceType": "GMFolder"
             }
         },
         {
@@ -1767,14 +1647,6 @@
             }
         },
         {
-            "Key": "ad36fcc4-bcf7-440b-8b6f-760b0083d5d9",
-            "Value": {
-                "id": "0702158b-50a4-40e3-be1d-6d91d6fe2b11",
-                "resourcePath": "views\\ad36fcc4-bcf7-440b-8b6f-760b0083d5d9.yy",
-                "resourceType": "GMFolder"
-            }
-        },
-        {
             "Key": "ae2aa81d-7a09-4f36-bbf2-6f1afdb2dfd6",
             "Value": {
                 "id": "e31b78fd-7280-491f-bfc3-061c73b8d698",
@@ -1791,26 +1663,10 @@
             }
         },
         {
-            "Key": "af08e1a8-d7fb-431f-8379-87dbd469a602",
-            "Value": {
-                "id": "3b88d27d-4a87-4709-a022-90c96f19ee2b",
-                "resourcePath": "views\\af08e1a8-d7fb-431f-8379-87dbd469a602.yy",
-                "resourceType": "GMFolder"
-            }
-        },
-        {
             "Key": "afe2c927-27da-4111-a5c9-bab75f176178",
             "Value": {
                 "id": "696bcd3d-bdfc-4bb9-a36a-33c1e51d0b2c",
                 "resourcePath": "views\\afe2c927-27da-4111-a5c9-bab75f176178.yy",
-                "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "afeb5f5e-fb6c-4ce3-bbe9-0a49677669f1",
-            "Value": {
-                "id": "b40164e2-aa69-4a77-86b8-77ad0fb9c9d7",
-                "resourcePath": "views\\afeb5f5e-fb6c-4ce3-bbe9-0a49677669f1.yy",
                 "resourceType": "GMFolder"
             }
         },
@@ -1831,27 +1687,11 @@
             }
         },
         {
-            "Key": "b080ac67-41ef-44f9-8f4a-9ad63947121e",
-            "Value": {
-                "id": "dc81e059-5789-4344-b11b-30d2ff4c1ebc",
-                "resourcePath": "views\\b080ac67-41ef-44f9-8f4a-9ad63947121e.yy",
-                "resourceType": "GMFolder"
-            }
-        },
-        {
             "Key": "b2b9edd4-51f8-4f77-9fc1-fbd3ab4571df",
             "Value": {
                 "id": "636755bd-5c44-4b92-860d-a22ae25de6de",
                 "resourcePath": "scripts\\@__init_global\\__init_global.yy",
                 "resourceType": "GMScript"
-            }
-        },
-        {
-            "Key": "b5b3d2a3-1561-4e68-8e5b-72a2a6e46a0b",
-            "Value": {
-                "id": "7573aad6-ceb2-45e5-9f7f-0ad5de4a24e4",
-                "resourcePath": "views\\b5b3d2a3-1561-4e68-8e5b-72a2a6e46a0b.yy",
-                "resourceType": "GMFolder"
             }
         },
         {
@@ -1975,14 +1815,6 @@
             }
         },
         {
-            "Key": "bf59627a-17d2-439b-8f7a-cb06f980e9b8",
-            "Value": {
-                "id": "4908bbc9-6902-47c6-b408-0e277a9eb229",
-                "resourcePath": "views\\bf59627a-17d2-439b-8f7a-cb06f980e9b8.yy",
-                "resourceType": "GMFolder"
-            }
-        },
-        {
             "Key": "bf81eb8e-89bb-4c7e-aa55-b1223a4ac428",
             "Value": {
                 "id": "5b0dfc1b-d432-4f01-9965-897de91debc0",
@@ -2047,6 +1879,14 @@
             }
         },
         {
+            "Key": "c7398ca8-aea0-46b7-be8b-93b17d9fb5b0",
+            "Value": {
+                "id": "9ac9b0db-efc6-4110-9a35-8774d1498e75",
+                "resourcePath": "views\\c7398ca8-aea0-46b7-be8b-93b17d9fb5b0.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "c7972057-3ef3-4acc-9b85-c1edebf695e8",
             "Value": {
                 "id": "908d8383-9b90-4838-a723-27475253e9bb",
@@ -2095,14 +1935,6 @@
             }
         },
         {
-            "Key": "caa6eb9b-5bfe-43ec-98b3-bc478e564068",
-            "Value": {
-                "id": "96b631f7-1d52-4a47-a23a-a68bd9e02906",
-                "resourcePath": "views\\caa6eb9b-5bfe-43ec-98b3-bc478e564068.yy",
-                "resourceType": "GMFolder"
-            }
-        },
-        {
             "Key": "cb9ee4d9-1fdb-4502-99b3-ac26d1b9ce00",
             "Value": {
                 "id": "69c725e1-8e9b-416a-9171-eda93ffa4246",
@@ -2135,26 +1967,10 @@
             }
         },
         {
-            "Key": "ce454bae-5d56-4e3f-bb9e-cdba6a994d62",
-            "Value": {
-                "id": "676ed32b-98fc-40c9-b722-99c5bd124015",
-                "resourcePath": "views\\ce454bae-5d56-4e3f-bb9e-cdba6a994d62.yy",
-                "resourceType": "GMFolder"
-            }
-        },
-        {
             "Key": "ce7cb225-e5c2-4e93-a7e4-100465910fb1",
             "Value": {
                 "id": "31898ac8-9a63-4d62-bc68-cb58afd2bcb4",
                 "resourcePath": "views\\ce7cb225-e5c2-4e93-a7e4-100465910fb1.yy",
-                "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "d08ab7db-481f-4fbb-8b48-30d51b0769a0",
-            "Value": {
-                "id": "0eb16866-a20e-470a-9a77-0823ceb432e0",
-                "resourcePath": "views\\d08ab7db-481f-4fbb-8b48-30d51b0769a0.yy",
                 "resourceType": "GMFolder"
             }
         },
@@ -2199,27 +2015,11 @@
             }
         },
         {
-            "Key": "d31232a7-b5c4-4322-9b1b-df4ba93edd80",
-            "Value": {
-                "id": "4eed6793-ad9e-4a27-bd0c-81ad59927e56",
-                "resourcePath": "views\\d31232a7-b5c4-4322-9b1b-df4ba93edd80.yy",
-                "resourceType": "GMFolder"
-            }
-        },
-        {
             "Key": "d32a5c5a-464e-405b-8e61-8f1f6685c1ba",
             "Value": {
                 "id": "9ee105cb-79d3-4b55-a2e7-5c65a103628f",
                 "resourcePath": "rooms\\scaler_demo\\scaler_demo.yy",
                 "resourceType": "GMRoom"
-            }
-        },
-        {
-            "Key": "d36be68f-e3fb-47a0-b184-da8be2cbd960",
-            "Value": {
-                "id": "66a9af2b-484c-4f1c-8db1-ccee8fadf2cb",
-                "resourcePath": "views\\d36be68f-e3fb-47a0-b184-da8be2cbd960.yy",
-                "resourceType": "GMFolder"
             }
         },
         {
@@ -2236,14 +2036,6 @@
                 "id": "14ade6b3-c2f0-4e02-b8ba-f0396a6c4918",
                 "resourcePath": "sprites\\spr_gopnik_knife_walk\\spr_gopnik_knife_walk.yy",
                 "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "d474ebf7-9280-4390-aef6-6fceed8692c9",
-            "Value": {
-                "id": "621fc6e9-cb1a-4af8-95fa-9e113b0e421c",
-                "resourcePath": "views\\d474ebf7-9280-4390-aef6-6fceed8692c9.yy",
-                "resourceType": "GMFolder"
             }
         },
         {
@@ -2287,27 +2079,11 @@
             }
         },
         {
-            "Key": "db2f5100-40c2-48cf-96e1-783d12e61b28",
-            "Value": {
-                "id": "52893b35-5c30-4b99-aef8-e24f7fdae8be",
-                "resourcePath": "views\\db2f5100-40c2-48cf-96e1-783d12e61b28.yy",
-                "resourceType": "GMFolder"
-            }
-        },
-        {
             "Key": "dc892c81-12f2-479f-9101-820300839bb1",
             "Value": {
                 "id": "270c3c96-53cc-4b52-8155-1a5646d103e0",
                 "resourcePath": "sprites\\spr_sniper\\spr_sniper.yy",
                 "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "dce09e60-4efe-44c0-bc27-8fc7ce1a8af9",
-            "Value": {
-                "id": "a4e5eef9-a984-466d-bd8d-9593ec4b7cd5",
-                "resourcePath": "views\\dce09e60-4efe-44c0-bc27-8fc7ce1a8af9.yy",
-                "resourceType": "GMFolder"
             }
         },
         {
@@ -2403,14 +2179,6 @@
             "Value": {
                 "id": "dc85f192-8f71-4957-9ad3-0c5a06d008c1",
                 "resourcePath": "views\\e670989a-21ac-4dc4-a541-93b8d2215c52.yy",
-                "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "e6b0ce95-256a-4eeb-8e48-b2e16d1c3ce8",
-            "Value": {
-                "id": "2caf44d4-f89d-4ba5-aa97-f69693bee799",
-                "resourcePath": "views\\e6b0ce95-256a-4eeb-8e48-b2e16d1c3ce8.yy",
                 "resourceType": "GMFolder"
             }
         },
