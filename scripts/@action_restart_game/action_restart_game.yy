@@ -1,5 +1,5 @@
 {
-    "id": "02b68a18-ec3f-4d3f-a9d8-3e9577dab2c4",
+    "id": "875defca-6e11-49a5-b02e-2c43bc9635f5",
     "modelName": "GMScript",
     "mvc": "1.0",
     "name": "action_restart_game",
