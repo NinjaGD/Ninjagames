@@ -1,5 +1,5 @@
 hp_enemy1 += -ShootDamage;
-instance_create_layer(x,y,"Instances",obj_blood);
+instance_create(x,y,obj_blood);
 
 //отталкивание назад
 speedenemydefolt =-2;
