@@ -1,5 +1,5 @@
 {
-    "id": "f2699b48-3d9b-48a9-9aca-2320f4e61b2a",
+    "id": "420cf3cf-1325-49f6-9d39-a59ec4c4d8c1",
     "modelName": "GMScript",
     "mvc": "1.0",
     "name": "background_get_width",

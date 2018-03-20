@@ -10,4 +10,3 @@ draw_sprite(sprite_index, 1, x + joyx, y + joyy);
 //Draw Joystick
 //draw_circle(x + joyx, y +joyy, 8, 2);
 //draw_line(x,y, x+joyx, y+joyy);
-

@@ -54,9 +54,13 @@ draw_text(640,150, "Weapons: " + string(WeaponsCount));
 draw_text(640,100, "PickUps: " + string(PickUpCount));
 
 
+//draw_text(100,200, "dispx: " + string(obj_LeftStick.var_objleftstick_x));
+//draw_text(100,225, "dispy: " + string(obj_LeftStick.var_objleftstick_y));
 draw_text(100,250, "auto: " + string(Aka47Ammo));
 draw_text(100,275, "pist: " + string(PistoletAmmo));
 draw_text(100,300, "snip: " + string(SniperAmmo));
 draw_text(100,325, "shot: " + string(ShotgunAmmo));
 draw_text(100,350, "HP: " + string(HpPlayer));
 draw_text(100,375, "Speed: " + string(SpeedPlayer));
+
+
