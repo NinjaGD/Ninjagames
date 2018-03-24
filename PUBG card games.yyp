@@ -111,6 +111,14 @@
             }
         },
         {
+            "Key": "07fd07a4-01d0-41ff-847b-8ffb777af9e7",
+            "Value": {
+                "id": "f4c78969-e860-433d-a4a6-d34aac1f4596",
+                "resourcePath": "sprites\\bullet_aka47\\bullet_aka47.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "09a90cc7-15ae-4493-a606-699fafa7baf1",
             "Value": {
                 "id": "d9f253b1-eb56-4eb4-b7a4-9d8715c20a5f",
@@ -703,6 +711,14 @@
             }
         },
         {
+            "Key": "419d9e81-9a4a-4307-885e-016e6fb45e19",
+            "Value": {
+                "id": "f8869fd1-1375-487d-bfa8-926b8e316868",
+                "resourcePath": "views\\419d9e81-9a4a-4307-885e-016e6fb45e19.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "42ad05d6-d786-4c34-8d75-d3a3e8ee4ca4",
             "Value": {
                 "id": "1e227084-3af7-4f3d-93e1-37b3e20a7ed4",
@@ -1052,6 +1068,14 @@
                 "id": "545dd77d-f82f-4f26-b6dd-77da8774648b",
                 "resourcePath": "objects\\obj_aim\\obj_aim.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "6268d9ab-e6e9-4af8-8eb0-abdc958bc559",
+            "Value": {
+                "id": "37d3d86a-fa18-483e-995f-37ecd0cd6d2d",
+                "resourcePath": "views\\6268d9ab-e6e9-4af8-8eb0-abdc958bc559.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -1807,6 +1831,14 @@
             }
         },
         {
+            "Key": "adaa0353-bcd8-4c5c-b84e-a35edd4a2815",
+            "Value": {
+                "id": "380e3272-9750-40f8-8192-05130bedd470",
+                "resourcePath": "sprites\\bullet_pistol\\bullet_pistol.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "ae2aa81d-7a09-4f36-bbf2-6f1afdb2dfd6",
             "Value": {
                 "id": "e31b78fd-7280-491f-bfc3-061c73b8d698",
@@ -1967,6 +1999,14 @@
             }
         },
         {
+            "Key": "bbe43314-bd3d-4ca6-8a03-aa2da86c8ef9",
+            "Value": {
+                "id": "60e96968-95fb-418f-8275-79a200323d22",
+                "resourcePath": "sprites\\bullet_shootgun\\bullet_shootgun.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "bc1e9469-cc2d-4d20-aeda-bf354554ea60",
             "Value": {
                 "id": "9a91a1d0-e472-4d74-9226-9a4ef489f23d",
@@ -1988,6 +2028,14 @@
                 "id": "cb3cb6d2-86dc-46a6-96a0-24d7f78ac4f4",
                 "resourcePath": "rooms\\room_menu\\room_menu.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "be3ff723-a3ab-4450-8cd2-4d92227c0836",
+            "Value": {
+                "id": "7c32ec44-ec2a-48b8-b305-7af8b3169225",
+                "resourcePath": "sprites\\bullet_sniper\\bullet_sniper.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -2143,6 +2191,14 @@
             }
         },
         {
+            "Key": "cb894ba5-9d05-47d5-bee8-e740f2482afc",
+            "Value": {
+                "id": "f07358a0-572d-449f-b2cc-a828ce85599c",
+                "resourcePath": "sprites\\blood_vertical\\blood_vertical.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "cb9ee4d9-1fdb-4502-99b3-ac26d1b9ce00",
             "Value": {
                 "id": "69c725e1-8e9b-416a-9171-eda93ffa4246",
@@ -2292,6 +2348,14 @@
                 "id": "0e8e6462-bcad-46bb-8954-9f23ab18444f",
                 "resourcePath": "objects\\obj_avtomat\\obj_avtomat.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "d72a1e44-7b20-4a36-af80-598683515192",
+            "Value": {
+                "id": "e73e9998-89c1-43a8-a75d-003fa0cfbd46",
+                "resourcePath": "sprites\\blood_diagonal\\blood_diagonal.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
