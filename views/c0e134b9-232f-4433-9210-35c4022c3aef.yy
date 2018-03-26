@@ -15,8 +15,9 @@
         "743a4af8-abe1-489c-beb6-e80da9c15903",
         "bed36c0d-bf21-4a7e-b9ac-1706be666ecb",
         "6d280ffd-1bc7-4454-ae0a-f72d7c846bb4",
-        "f8f828ee-fe5a-42b4-95c0-362702c44149",
-        "c71050bd-5d6d-4bbe-afa5-e5306d283c93"
+        "c71050bd-5d6d-4bbe-afa5-e5306d283c93",
+        "5c35cda0-01ab-40b4-b543-8c6064b257d3",
+        "681edf53-e622-40b7-98da-2ab9caed8710"
     ],
     "filterType": "GMObject",
     "folderName": "gr_gui",

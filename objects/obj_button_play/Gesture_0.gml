@@ -10,4 +10,6 @@ if !object_get_visible(obj_RightStick) object_set_visible(obj_RightStick, true);
 EnemyCount = 0;
 EnemyMax = irandom_range(10,20);
 if HpPlayer >= 100 {HpPlayer = 100};
-room_goto(room0);
+image_xscale = 0.8;
+image_yscale = image_xscale;
+alarm [0] = 5;

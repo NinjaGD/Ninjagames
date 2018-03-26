@@ -7,4 +7,6 @@ SniperAmmo = SniperAmmoDefolt;
 ShotgunAmmo = ShotgunAmmoDefolt;
 Weapons = 0;
 EnemyKilled = 0;
-room_goto(room_menu);
+image_xscale = 0.8;
+image_yscale = image_xscale;
+alarm [0] = 5;
