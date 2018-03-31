@@ -1055,6 +1055,14 @@
             }
         },
         {
+            "Key": "61a357b5-304c-4ed9-91fa-bd6fec538912",
+            "Value": {
+                "id": "b4592889-ecae-4976-8583-6dcf1845d570",
+                "resourcePath": "sprites\\logo\\logo.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "62005917-2ee4-4110-8f57-567e288b2962",
             "Value": {
                 "id": "545dd77d-f82f-4f26-b6dd-77da8774648b",
