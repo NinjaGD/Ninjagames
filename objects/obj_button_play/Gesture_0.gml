@@ -8,7 +8,7 @@
 if !object_get_visible(obj_LeftStick) object_set_visible(obj_LeftStick, true);
 if !object_get_visible(obj_RightStick) object_set_visible(obj_RightStick, true);
 EnemyCount = 0;
-EnemyMax = irandom_range(10,20);
+EnemyMax = EnemyMaxDefolt;
 if HpPlayer >= 100 {HpPlayer = 100};
 image_xscale = 0.8;
 image_yscale = image_xscale;
