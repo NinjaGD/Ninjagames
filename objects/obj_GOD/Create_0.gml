@@ -1,17 +1,11 @@
-//////для позиционирования ( для вычисления этих переменных объект obj_scaler должен находится в предыдущей стартовой комнате)
-//globalvar WightGlobalVar, HeightGlobalVar, WightHeight; //глобальная ширина, высота и их соотношение
 
-//WightGlobalVar = __view_get( e__VW.XView, global.display_view ) + __view_get( e__VW.WView, global.display_view );
-//HeightGlobalVar = __view_get( e__VW.YView, global.display_view ) + __view_get( e__VW.HView, global.display_view );
-//WightHeight = WightGlobalVar/HeightGlobalVar;
-// различные настройки
 randomize();
 
 //характеристики игрока глобальные переменные
 globalvar HpPlayer, ArmorPlayer, SpeedPlayer, SpeedPlayerMin, SpeedPlayerMax, HPDefolt, SpeedPlayerDefolt;
 globalvar SpeedPlayerSlow, SpeedPlayerFast, SpeedTeleport, CdTeleport;
 
-HPDefolt = 100; //здоровье игрока по умолчанию, которое будет меняться по мере его увеличения за награду
+HPDefolt = 10; //здоровье игрока по умолчанию, которое будет меняться по мере его увеличения за награду
 HpPlayer = HPDefolt ; // здоровье - для расчета в бою
 ArmorPlayer = 0; // броня
 SpeedPlayerDefolt = 4; // дефолтная скорость, не подвергается изменениям

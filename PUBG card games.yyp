@@ -223,6 +223,14 @@
             }
         },
         {
+            "Key": "17265236-550f-4274-9dfc-f1989ff55984",
+            "Value": {
+                "id": "38926628-cc7b-4c11-91a8-019452171250",
+                "resourcePath": "objects\\obj_room_logo\\obj_room_logo.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "17d5f059-90ba-4045-a445-1538ec0a56ff",
             "Value": {
                 "id": "b01fd7b4-6da8-4fdc-8f49-5a40dc0f8739",
