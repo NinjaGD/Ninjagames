@@ -58,7 +58,7 @@
             "Key": "03a31dae-3bb2-4a2f-bc01-2a5b1c7ce9a2",
             "Value": {
                 "id": "027934d6-d1b9-4983-9b45-a6a645bacbe8",
-                "resourcePath": "sprites\\gr_spr_die\\gr_spr_die.yy",
+                "resourcePath": "sprites\\spr_die\\spr_die.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -2756,6 +2756,14 @@
                 "id": "7299723b-c136-4c3c-aea3-bf1f54332f0f",
                 "resourcePath": "sprites\\spr_knife_idle\\spr_knife_idle.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "f59567e9-2dd0-42d2-b43e-777fdcd38a4f",
+            "Value": {
+                "id": "67b7a5dc-34cc-4341-80dc-b35ab1b514e6",
+                "resourcePath": "objects\\obj_spr_player_death\\obj_spr_player_death.yy",
+                "resourceType": "GMObject"
             }
         },
         {

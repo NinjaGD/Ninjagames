@@ -2,13 +2,13 @@
     "id": "03a31dae-3bb2-4a2f-bc01-2a5b1c7ce9a2",
     "modelName": "GMSprite",
     "mvc": "1.12",
-    "name": "gr_spr_die",
+    "name": "spr_die",
     "For3D": false,
     "HTile": false,
     "VTile": false,
-    "bbox_bottom": 30,
+    "bbox_bottom": 46,
     "bbox_left": 0,
-    "bbox_right": 31,
+    "bbox_right": 47,
     "bbox_top": 1,
     "bboxmode": 0,
     "colkind": 1,
@@ -150,7 +150,7 @@
     ],
     "gridX": 0,
     "gridY": 0,
-    "height": 32,
+    "height": 48,
     "layers": [
         {
             "id": "f725f334-1b6e-4a3e-8864-6444e3203e65",
@@ -164,9 +164,9 @@
             "visible": true
         }
     ],
-    "origin": 0,
+    "origin": 4,
     "originLocked": false,
-    "playbackSpeed": 15,
+    "playbackSpeed": 5,
     "playbackSpeedType": 0,
     "premultiplyAlpha": false,
     "sepmasks": false,
@@ -174,7 +174,7 @@
     "swfPrecision": 2.525,
     "textureGroupId": "1225f6b0-ac20-43bd-a82e-be73fa0b6f4f",
     "type": 0,
-    "width": 32,
-    "xorig": 0,
-    "yorig": 0
+    "width": 48,
+    "xorig": 24,
+    "yorig": 24
 }

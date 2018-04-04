@@ -12,7 +12,7 @@ randomize();
 globalvar HpPlayer, ArmorPlayer, SpeedPlayer, SpeedPlayerMin, SpeedPlayerMax, HPDefolt, SpeedPlayerDefolt;
 globalvar SpeedPlayerSlow, SpeedPlayerFast, SpeedTeleport, CdTeleport;
 
-HPDefolt = 10; //здоровье игрока по умолчанию, которое будет меняться по мере его увеличения за награду
+HPDefolt = 100; //здоровье игрока по умолчанию, которое будет меняться по мере его увеличения за награду
 HpPlayer = HPDefolt ; // здоровье - для расчета в бою
 ArmorPlayer = 0; // броня
 SpeedPlayerDefolt = 4; // дефолтная скорость, не подвергается изменениям
@@ -91,7 +91,7 @@ globalvar MoneyKill, SpeedEnemyBullet, MeleeDistance, SpeedEnemySlow, SpeedEnemy
 
 EnemyCount = 0;
 EnemyKilled = 0;
-EnemyMaxDefolt = irandom_range(1,2);
+EnemyMaxDefolt = irandom_range(10,20);
 EnemyMax = EnemyMaxDefolt;
 HpEnemy = 100;
 SpeedEnemy = 2;
