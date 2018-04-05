@@ -2623,6 +2623,14 @@
             }
         },
         {
+            "Key": "e90df820-55e7-4383-9877-4b4be96eab5a",
+            "Value": {
+                "id": "bfecd216-20f8-4bfe-8e03-cc4fd492f181",
+                "resourcePath": "objects\\obj_GUI_resolution\\obj_GUI_resolution.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "e90f4df4-8491-47aa-b40d-6c5fec78771c",
             "Value": {
                 "id": "4e0cd72d-8816-4c13-93f5-f31303f0fbbf",

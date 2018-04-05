@@ -187,12 +187,12 @@ if Weapons = 5
 
 if HpPlayer <= 0
 {
-	sprite_index = spr_die;
+	//sprite_index = spr_die;
 	EnemyKilledMax += EnemyKilled;
-	instance_create_layer(0,0,"Instances_1", obj_player_death);
-	//instance_create_layer(0,0,"Instances_1", obj_spr_player_death);
+	//instance_create_layer(0,0,"Instances_1", obj_player_death);
+	instance_create_layer(x,y,"Instances_1", obj_spr_player_death);
 	instance_destroy(obj_button_shoot);
-	alarm [0] = 30;
+	instance_destroy();
 }
 
 if EnemyKilled >=EnemyMax
