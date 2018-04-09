@@ -3,7 +3,10 @@ if x>3936{x=3936};
 if y<64 {y=64};
 if y>3936 {y=3936};
 
-sprite_index = spr_enemy_haki_idle;
+if cd_shoot >0
+{
+	sprite_index = spr_gopnik_avtomat_idle;
+}
 
 image_angle = point_direction(x,y,obj_player_coordinates.x,obj_player_coordinates.y);
 
@@ -15,13 +18,13 @@ if instance_exists(obj_player) && distance_to_object(obj_player) < AttackDistanc
 {
 	if cd_shoot<=0
 	{
-		sprite_index = spr_enemy_haki_no_walk_shoot;
+		sprite_index = spr_gopnik_avtomat_shoot;
 		instance_create_layer(x,y,"Instances",obj_enemy_bullet);
 		cd_shoot =90;
 	}
 	cd_shoot -=1;
 }
-	
+
 if hp_enemy1 <= 0 
 {
 	MoneyReward +=MoneyKill;

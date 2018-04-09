@@ -1,4 +1,4 @@
-//для позиционирования ( вычисляются в эвенте степ в этом объекте )
+//для позиционирования ( использовать для объектов которые должны перемещаться )
 globalvar WightGlobalVar, HeightGlobalVar, WightHeight; //глобальная ширина, высота и их соотношение
 
 WightGlobalVar = __view_get( e__VW.XView, global.display_view ) + __view_get( e__VW.WView, global.display_view );

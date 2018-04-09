@@ -1,17 +1,18 @@
-//////для позиционирования ( для вычисления этих переменных объект obj_scaler должен находится в предыдущей стартовой комнате)
-//globalvar WightGlobalVar, HeightGlobalVar, WightHeight; //глобальная ширина, высота и их соотношение
+//для позиционирования ( использовать для объектов когда экран не "перемещается")
+globalvar WightGlobalVarGui, HeightGlobalVarGui, WightHeightGui; //глобальная ширина, высота и их соотношение
 
-//WightGlobalVar = __view_get( e__VW.XView, global.display_view ) + __view_get( e__VW.WView, global.display_view );
-//HeightGlobalVar = __view_get( e__VW.YView, global.display_view ) + __view_get( e__VW.HView, global.display_view );
-//WightHeight = WightGlobalVar/HeightGlobalVar;
-// различные настройки
+WightGlobalVarGui = __view_get( e__VW.XView, global.display_view ) + __view_get( e__VW.WView, global.display_view );
+HeightGlobalVarGui = __view_get( e__VW.YView, global.display_view ) + __view_get( e__VW.HView, global.display_view );
+//соотношение ширины и высоты
+WightHeightGui = WightGlobalVarGui/HeightGlobalVarGui;
+
 randomize();
 
 //характеристики игрока глобальные переменные
 globalvar HpPlayer, ArmorPlayer, SpeedPlayer, SpeedPlayerMin, SpeedPlayerMax, HPDefolt, SpeedPlayerDefolt;
 globalvar SpeedPlayerSlow, SpeedPlayerFast, SpeedTeleport, CdTeleport;
 
-HPDefolt = 100; //здоровье игрока по умолчанию, которое будет меняться по мере его увеличения за награду
+HPDefolt = 10; //здоровье игрока по умолчанию, которое будет меняться по мере его увеличения за награду
 HpPlayer = HPDefolt ; // здоровье - для расчета в бою
 ArmorPlayer = 0; // броня
 SpeedPlayerDefolt = 4; // дефолтная скорость, не подвергается изменениям
@@ -32,16 +33,17 @@ ShootSpeedPlayer = 15; // скорость стрельбы ( чем меньш�
 ShootScatterPlayer = irandom_range(-20,20); // разброс стрельбы игрока
 ShootAmmo = 0; // количество патронов
 SpeedPlayerBullet = 10; // (в данный момент не актуально ) скорость полета пули 
-PushDamage = 30; // урон от удара игрока
-PushSpeed = 15; // скорость удара игрока
 WeaponsCount = 0; //единица оружия на карте
 WeaponMax = 30; //максимально возможно количество единиц оружия на карте
 
-globalvar PushDamage, PushSpeed;
-// Характеристики кулака -  оружие 0
 
-globalvar Aka47Ammo, Aka47SpeedCd, Aka47Speed, Aka47BulletSpeed, Aka47Damage,Aka47AmmoDefolt;
+// Характеристики кулака -  оружие 0
+globalvar PushDamage, PushSpeed;
+PushDamage = 30; // урон от удара игрока
+PushSpeed = 15; // скорость удара игрока
+
 // Характеристики калаша -  оружие 1
+globalvar Aka47Ammo, Aka47SpeedCd, Aka47Speed, Aka47BulletSpeed, Aka47Damage,Aka47AmmoDefolt;
 Aka47Speed = 5; // скорость стрельбы из ака47
 Aka47SpeedCd = 15; // кулдаун между выстрелами
 Aka47Ammo = 30; // количество патронов в ака47
@@ -49,8 +51,8 @@ Aka47AmmoDefolt = 30; // количество патронов в ака47 по 
 Aka47BulletSpeed = 20; // скорость полета пули из ака
 Aka47Damage = 30; // урон с ака47
 
-globalvar PistoletSpeed, PistoletSpeedCd, PistoletAmmo, PistoletBulletSpeed, PistoletDamage, PistoletAmmoDefolt;
 // Характеристики пистолета - оружие 2
+globalvar PistoletSpeed, PistoletSpeedCd, PistoletAmmo, PistoletBulletSpeed, PistoletDamage, PistoletAmmoDefolt;
 PistoletSpeed = 1; // скорость стрельбы из пистолета
 PistoletSpeedCd = 15; // кулдаун между выстрелами
 PistoletAmmo = 15; // количество патронов в пистолета
@@ -64,8 +66,8 @@ KnifeDamage = 5; // урон от ножа
 KnifeSpeed = 5; // скорость удара ножом
 KnifeDamage = 30; // урон с ножа
 
-globalvar SniperAmmo, SniperSpeedCd, SniperSpeed, SniperBulletSpeed, SniperDamage, SniperAmmoDefolt;
 // Характеристики снайперки -  оружие 4
+globalvar SniperAmmo, SniperSpeedCd, SniperSpeed, SniperBulletSpeed, SniperDamage, SniperAmmoDefolt;
 SniperSpeed = 1; // скорость стрельбы из снайперки
 SniperSpeedCd = 30; // кулдаун между выстрелами
 SniperAmmo = 30; // количество патронов в снайперки
@@ -73,8 +75,8 @@ SniperAmmoDefolt = 30; // количество патронов в снайпе�
 SniperBulletSpeed = 20; // скорость полета пули из снайперки
 SniperDamage = 30 // скорость урона из снайперки
 
-globalvar ShotgunAmmo, ShotgunSpeedCd, ShotgunSpeed, ShotgunBulletSpeed, ShotgunDamage, ShotgunAmmoDefolt;
 // Характеристики дробовика -  оружие 5
+globalvar ShotgunAmmo, ShotgunSpeedCd, ShotgunSpeed, ShotgunBulletSpeed, ShotgunDamage, ShotgunAmmoDefolt;
 ShotgunSpeed = 1; // скорость стрельбы из дробовика
 ShotgunSpeedCd = 20; // кулдаун между выстрелами
 ShotgunAmmo = 30; // количество патронов в дробовика
@@ -85,11 +87,12 @@ ShotgunDamage = 30 // скорость урона из дробовика
 // характеристики врагов obj_enemy
 globalvar HpEnemy, SpeedEnemy, ShootCooldown, CollisionCooldown, DamageBullet, SpeedEnemyMin, SpeedEnemyMax;
 globalvar CdRandomDirection, AttackDistance,CollisionDamage, EnemyCount, EnemyKilled, CollisionSpeed, EnemyMax;
-globalvar MoneyKill, SpeedEnemyBullet, MeleeDistance, SpeedEnemySlow, SpeedEnemyFast;
+globalvar MoneyKill, SpeedEnemyBullet, MeleeDistance, SpeedEnemySlow, SpeedEnemyFast, EnemyMaxDefolt;
 
 EnemyCount = 0;
 EnemyKilled = 0;
-EnemyMax = irandom_range(10,20);
+EnemyMaxDefolt = irandom_range(10,20);
+EnemyMax = EnemyMaxDefolt;
 HpEnemy = 100;
 SpeedEnemy = 2;
 SpeedEnemyMin = 0;
