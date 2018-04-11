@@ -839,6 +839,14 @@
             }
         },
         {
+            "Key": "4b5e2c50-149b-451e-aa26-a6322f78ccb3",
+            "Value": {
+                "id": "66fcae69-4056-40b8-9dce-97aa63e16ada",
+                "resourcePath": "sprites\\spr_gopnik_die\\spr_gopnik_die.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "4c06b705-5b8e-450e-bce2-27770b634ce5",
             "Value": {
                 "id": "73798511-5ffc-44bc-a56c-5c795604e128",
