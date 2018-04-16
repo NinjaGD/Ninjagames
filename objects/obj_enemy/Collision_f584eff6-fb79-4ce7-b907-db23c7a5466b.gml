@@ -1,5 +1,5 @@
 hp_enemy1 += -SniperDamage;
-instance_create(x,y,obj_blood);
+instance_create_layer(x,y,"Instances_1",obj_blood);
 
 //отталкивание назад
 speedenemydefolt =-2;
