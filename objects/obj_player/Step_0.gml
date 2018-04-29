@@ -22,6 +22,17 @@ with(obj_LeftStick) var walk_off = !touching; // не ходит
 with (obj_RightStick) var shoot_on_check = touching;
 
 
+
+if(walk_on)
+{
+	if cd_snd_walk <=0	
+	{
+		audio_play_sound(snd_walk,10,false);
+		cd_snd_walk = 15;
+	}
+	cd_snd_walk += -1;
+}
+
 if Weapons = 0
 {
 	if(walk_on)

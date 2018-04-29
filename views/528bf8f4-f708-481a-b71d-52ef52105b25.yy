@@ -16,7 +16,8 @@
         "70eeb74b-a3cc-4216-a3c1-9581fc958879",
         "2d706c13-ace1-42b5-ba30-224e6c8e9fb5",
         "1b5e96c6-7c92-4517-b215-47d817f5a4a7",
-        "6dcc46a1-184e-455b-998b-45429fa2fd16"
+        "6dcc46a1-184e-455b-998b-45429fa2fd16",
+        "b2f6e8c2-153c-4d1f-8193-034fc097480f"
     ],
     "filterType": "GMObject",
     "folderName": "gr_game_control",

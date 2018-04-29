@@ -25,6 +25,7 @@ if instance_exists(obj_player)
 		{
 			mp_potential_step(obj_player.x, obj_player.y, speedenemydefolt, false);
 			sprite_index = spr_gopnik_knife_walk;
+			audio_play_sound(snd_walk,10,false);
 		}
 	}
 }

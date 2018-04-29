@@ -1,4 +1,4 @@
-
+audio_play_sound(snd_lose,10,false);
 instance_deactivate_object(obj_GUI);
 object_set_visible( obj_LeftStick, false );
 object_set_visible( obj_RightStick, false );

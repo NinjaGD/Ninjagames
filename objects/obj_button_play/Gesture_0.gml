@@ -12,4 +12,6 @@ EnemyMax = EnemyMaxDefolt;
 if HpPlayer >= 100 {HpPlayer = 100};
 image_xscale = 0.8;
 image_yscale = image_xscale;
+audio_play_sound(snd_play,10,false);
+audio_stop_sound(snd_soundtrack);
 alarm [0] = 5;
