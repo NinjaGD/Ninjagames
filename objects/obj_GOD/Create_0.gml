@@ -119,7 +119,7 @@ PickUpMax = 20;
 
 // смена оружия
 globalvar Weapons;
-Weapons = 1;
+Weapons = 0;
 
 // разные предметы
 globalvar HealCd;
