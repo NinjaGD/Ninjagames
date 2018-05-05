@@ -34,6 +34,12 @@ if instance_exists(obj_player)
 		if random_direction = 1
 		{
 			mp_potential_step(obj_player.x, obj_player.y, speedenemydefolt, false);
+			if cd_enemy_walk <=0
+			{
+				audio_play_sound(snd_enemy_walk,10,false);
+				cd_enemy_walk = 15;
+			}
+			cd_enemy_walk += -1;
 		}
 		
 		if random_direction = 2
@@ -42,6 +48,12 @@ if instance_exists(obj_player)
 			{
 				direction = irandom(360);
 				speed = speedenemydefolt;
+				if cd_enemy_walk <=0
+				{
+					audio_play_sound(snd_enemy_walk,10,false);
+					cd_enemy_walk = 15;
+				}
+				cd_enemy_walk += -1;
 			}
 		}
 	}
