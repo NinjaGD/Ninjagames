@@ -19,7 +19,8 @@ if instance_exists(obj_player) && distance_to_object(obj_player) < AttackDistanc
 	if cd_shoot<=0
 	{
 		sprite_index = spr_gopnik_avtomat_shoot;
-		instance_create_layer(x,y,"Instances",obj_enemy_bullet);
+		instance_create_layer(x,y,"Instances",obj_enemy_bullet_sniper);
+		audio_play_sound(snd_snipershot,10,false);
 		cd_shoot =90;
 	}
 	cd_shoot -=1;

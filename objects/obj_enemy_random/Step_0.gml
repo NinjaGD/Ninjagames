@@ -18,6 +18,7 @@ if instance_exists(obj_player)
 			{
 				sprite_index = spr_gopnik_avtomat_shoot;
 				instance_create_layer(x,y,"Instances",obj_enemy_bullet);
+				audio_play_sound(snd_ak47shot,10,false);
 				cd_shoot =ShootCooldown;
 			}
 			cd_shoot -=1;

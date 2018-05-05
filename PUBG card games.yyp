@@ -143,6 +143,22 @@
             }
         },
         {
+            "Key": "0abcdd86-344e-4389-a067-4799a2db9b9f",
+            "Value": {
+                "id": "aaf67b87-b612-4e80-a603-5b217b282cf5",
+                "resourcePath": "objects\\obj_enemy_bullet_sniper\\obj_enemy_bullet_sniper.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "0ad8f3d2-018f-4b1c-a15c-a355cffee4b3",
+            "Value": {
+                "id": "09079fc6-4c90-4282-b534-d5a0a8867525",
+                "resourcePath": "sounds\\snd_enemy_walk\\snd_enemy_walk.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "0c90debd-d4f8-41ac-a710-8e0245cc18f9",
             "Value": {
                 "id": "89b72733-a1ce-4410-8fa8-b77766ebd302",

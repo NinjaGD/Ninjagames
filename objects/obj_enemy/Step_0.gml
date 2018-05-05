@@ -17,6 +17,7 @@ if instance_exists(obj_player)
 			{
 				sprite_index = spr_gopnik_avtomat_shoot;
 				instance_create_layer(x,y,"Instances",obj_enemy_bullet);
+				audio_play_sound(snd_ak47shot,10,false);
 				cd_shoot =ShootCooldown;
 			}
 			cd_shoot -=1;
@@ -25,7 +26,12 @@ if instance_exists(obj_player)
 		{
 			mp_potential_step(obj_player.x, obj_player.y, speedenemydefolt, false);
 			sprite_index = spr_gopnik_knife_walk;
-			audio_play_sound(snd_walk,10,false);
+			if cd_enemy_walk <=0
+			{
+				audio_play_sound(snd_enemy_walk,10,false);
+				cd_enemy_walk = 15;
+			}
+			cd_enemy_walk += -1;
 		}
 	}
 }

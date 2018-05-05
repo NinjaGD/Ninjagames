@@ -3,4 +3,5 @@ cd_shoot = 0;
 cd_collision = 0;
 speedenemydefolt = SpeedEnemy;
 EnemyCount += 1;
+cd_enemy_walk = 0;
 
