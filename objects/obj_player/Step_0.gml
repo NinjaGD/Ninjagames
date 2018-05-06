@@ -202,6 +202,7 @@ if HpPlayer <= 0
 	EnemyKilledMax += EnemyKilled;
 	//instance_create_layer(0,0,"Instances_1", obj_player_death);
 	instance_create_layer(x,y,"Instances_1", obj_spr_player_death);
+	audio_play_sound(snd_player_death,10,false);
 	instance_destroy(obj_button_shoot);
 	instance_destroy();
 }

@@ -71,6 +71,7 @@ if hp_enemy1 <= 0
 	MoneyReward +=MoneyKill;
 	EnemyCount += -1;
 	EnemyKilled += 1;
+	audio_play_sound(snd_enemy_death,10,false);
 	instance_create(x,y,obj_text_youkilled);
 	instance_create(x,y,obj_enemy_death);
 	instance_destroy();

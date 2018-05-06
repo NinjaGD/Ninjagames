@@ -23,8 +23,13 @@ if Weapons = 0 //кулаки
 		if cd_player_shoot <=0
 		{
 			instance_create_layer(obj_player_coordinates.x,obj_player_coordinates.y,"Instances_1",obj_player_push);
-			audio_play_sound(snd_kickshot,10,false);
 			cd_player_shoot =ShootSpeedPlayer;
+			if cd_sndkick <= 0
+			{
+				audio_play_sound(snd_kickshot,10,false);
+				cd_sndkick = 5;
+			}
+			cd_sndkick += -1;
 		}
 		cd_player_shoot -=3;
 	}

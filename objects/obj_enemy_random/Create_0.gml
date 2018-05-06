@@ -6,3 +6,4 @@ EnemyCount += 1;
 speedenemydefolt = SpeedEnemy;
 random_direction = irandom_range(1,2);
 cd_enemy_walk = 0;
+cd_snd_player_ouch = 0;

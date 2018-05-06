@@ -9,6 +9,7 @@ if cd_somersault <=0
 	{
 		instance_create_layer(obj_player_coordinates.x,obj_player_coordinates.y,"Instances_1",obj_teleport);
 		cd_somersault =CdTeleport;
+		audio_play_sound(snd_salto,10,false);
 	}
 }
 cd_somersault += -1;
