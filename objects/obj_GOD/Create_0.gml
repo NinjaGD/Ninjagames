@@ -87,7 +87,7 @@ ShotgunDamage = 30 // скорость урона из дробовика
 // характеристики врагов obj_enemy
 globalvar HpEnemy, SpeedEnemy, ShootCooldown, CollisionCooldown, DamageBullet, SpeedEnemyMin, SpeedEnemyMax;
 globalvar CdRandomDirection, AttackDistance,CollisionDamage, EnemyCount, EnemyKilled, CollisionSpeed, EnemyMax;
-globalvar MoneyKill, SpeedEnemyBullet, MeleeDistance, SpeedEnemySlow, SpeedEnemyFast, EnemyMaxDefolt;
+globalvar MoneyKill, SpeedEnemyBullet, MeleeDistance, SpeedEnemySlow, SpeedEnemyFast, EnemyMaxDefolt, SpeedEnemySniperBullet;
 
 EnemyCount = 0;
 EnemyKilled = 0;
@@ -104,7 +104,8 @@ CollisionCooldown = 30;
 CollisionDamage = 3;
 CollisionSpeed = 5; 
 DamageBullet = 20;
-SpeedEnemyBullet = 5;
+SpeedEnemyBullet = 15;
+SpeedEnemySniperBullet = 10;
 CdRandomDirection = 90;
 AttackDistance = 750;
 ShootDistance = 500; // дистанция до выстрела
