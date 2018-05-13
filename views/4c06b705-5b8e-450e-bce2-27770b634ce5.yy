@@ -7,7 +7,8 @@
         "b02290b7-f314-47ed-a04b-d5a4465cf107",
         "eb1a0862-5dcf-41da-b547-2486bf7ddace",
         "c8aece60-514f-43d8-8976-1dfa458d810e",
-        "61a357b5-304c-4ed9-91fa-bd6fec538912"
+        "61a357b5-304c-4ed9-91fa-bd6fec538912",
+        "15bfd2c2-db53-432f-b680-6ad40bb371c5"
     ],
     "filterType": "GMSprite",
     "folderName": "gr_screens",
