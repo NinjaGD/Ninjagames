@@ -10,7 +10,7 @@
     "option_android_build_tools": "27.0.0",
     "option_android_compile_sdk": 27,
     "option_android_device_support": 0,
-    "option_android_display_name": "Made in GameMaker Studio 2",
+    "option_android_display_name": "Battle Royale - Rules of Fortknives Survival Nite",
     "option_android_facebook_app_display_name": "",
     "option_android_facebook_id": "",
     "option_android_gamepad_support": true,
@@ -61,9 +61,9 @@
     "option_android_tv_isgame": true,
     "option_android_use_facebook": false,
     "option_android_version": {
-        "build": 2,
+        "build": 0,
         "major": 1,
-        "minor": 0,
+        "minor": 1,
         "revision": 0
     }
 }

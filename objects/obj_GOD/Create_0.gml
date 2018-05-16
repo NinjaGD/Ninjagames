@@ -39,14 +39,14 @@ WeaponMax = 30; //максимально возможно количество �
 
 // Характеристики кулака -  оружие 0
 globalvar PushDamage, PushSpeed;
-PushDamage = 30; // урон от удара игрока
+PushDamage = 16; // урон от удара игрока
 PushSpeed = 15; // скорость удара игрока
 
 // Характеристики калаша -  оружие 1
 globalvar Aka47Ammo, Aka47SpeedCd, Aka47Speed, Aka47BulletSpeed, Aka47Damage,Aka47AmmoDefolt;
 Aka47Speed = 5; // скорость стрельбы из ака47
 Aka47SpeedCd = 15; // кулдаун между выстрелами
-Aka47Ammo = 30; // количество патронов в ака47
+Aka47Ammo = 12; // количество патронов в ака47
 Aka47AmmoDefolt = 30; // количество патронов в ака47 по умолчанию
 Aka47BulletSpeed = 20; // скорость полета пули из ака
 Aka47Damage = 30; // урон с ака47
@@ -55,10 +55,10 @@ Aka47Damage = 30; // урон с ака47
 globalvar PistoletSpeed, PistoletSpeedCd, PistoletAmmo, PistoletBulletSpeed, PistoletDamage, PistoletAmmoDefolt;
 PistoletSpeed = 1; // скорость стрельбы из пистолета
 PistoletSpeedCd = 15; // кулдаун между выстрелами
-PistoletAmmo = 15; // количество патронов в пистолета
+PistoletAmmo = 7; // количество патронов в пистолета
 PistoletAmmoDefolt = 15; // количество патронов в пистолета по умолчанию
-PistoletBulletSpeed = 20; // скорость полета пули из ака
-PistoletDamage = 30; // урон с ака47
+PistoletBulletSpeed = 15; // скорость полета пули из ака
+PistoletDamage = 20; // урон с пистолета
 
 // характеристики ножа - оружие 3
 globalvar KnifeDamage, KnifeSpeed, KnifeDamage;
@@ -70,19 +70,19 @@ KnifeDamage = 30; // урон с ножа
 globalvar SniperAmmo, SniperSpeedCd, SniperSpeed, SniperBulletSpeed, SniperDamage, SniperAmmoDefolt;
 SniperSpeed = 1; // скорость стрельбы из снайперки
 SniperSpeedCd = 30; // кулдаун между выстрелами
-SniperAmmo = 30; // количество патронов в снайперки
+SniperAmmo = 6; // количество патронов в снайперки
 SniperAmmoDefolt = 30; // количество патронов в снайперки по умолчанию
-SniperBulletSpeed = 20; // скорость полета пули из снайперки
-SniperDamage = 30 // скорость урона из снайперки
+SniperBulletSpeed = 18; // скорость полета пули из снайперки
+SniperDamage = 50 // скорость урона из снайперки
 
 // Характеристики дробовика -  оружие 5
 globalvar ShotgunAmmo, ShotgunSpeedCd, ShotgunSpeed, ShotgunBulletSpeed, ShotgunDamage, ShotgunAmmoDefolt;
 ShotgunSpeed = 1; // скорость стрельбы из дробовика
 ShotgunSpeedCd = 20; // кулдаун между выстрелами
-ShotgunAmmo = 30; // количество патронов в дробовика
+ShotgunAmmo = 10; // количество патронов в дробовика
 ShotgunAmmoDefolt = 30; // количество патронов в дробовика по умолчанию
-ShotgunBulletSpeed = 20; // скорость полета пули из дробовика
-ShotgunDamage = 30 // скорость урона из дробовика
+ShotgunBulletSpeed = 15; // скорость полета пули из дробовика
+ShotgunDamage = 15 // скорость урона из дробовика
 
 // характеристики врагов obj_enemy
 globalvar HpEnemy, SpeedEnemy, ShootCooldown, CollisionCooldown, DamageBullet, SpeedEnemyMin, SpeedEnemyMax;
@@ -105,7 +105,7 @@ CollisionDamage = 3;
 CollisionSpeed = 5; 
 DamageBullet = 20;
 SpeedEnemyBullet = 15;
-SpeedEnemySniperBullet = 10;
+SpeedEnemySniperBullet = 13;
 CdRandomDirection = 90;
 AttackDistance = 750;
 ShootDistance = 500; // дистанция до выстрела
