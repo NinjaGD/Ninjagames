@@ -9,6 +9,8 @@ if !object_get_visible(obj_LeftStick) object_set_visible(obj_LeftStick, true);
 if !object_get_visible(obj_RightStick) object_set_visible(obj_RightStick, true);
 EnemyCount = 0;
 EnemyMax = EnemyMaxDefolt;
+WeaponsCount = 0;
+PickUpCount = 0;
 if HpPlayer >= 100 {HpPlayer = 100};
 image_xscale = 0.8;
 image_yscale = image_xscale;

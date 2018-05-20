@@ -1,6 +1,6 @@
 if cd_collision<=0
 {
-	HpPlayer +=-1;
+	HpPlayer +=-CollisionDamage;
 	cd_collision =CollisionCooldown;
 	if cd_snd_player_ouch <=0
 	{
